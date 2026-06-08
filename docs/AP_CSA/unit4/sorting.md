@@ -60,6 +60,40 @@ public static void mergeSort(int[] arr, int lo, int hi) {
 
 合并时用双指针比较两半的当前元素，依次取较小者。归并排序的效率是 $n\log n$——比前两者快得多。
 
+<div class="diagram">
+<svg viewBox="0 0 440 210" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace" font-size="11">
+  <text x="60" y="14" fill="var(--dia-blue)" font-size="10">↓ 分（divide）</text>
+  <text x="300" y="14" fill="var(--dia-accent)" font-size="10">↑ 合并（merge）</text>
+  <!-- level 0 -->
+  <rect x="150" y="22" width="140" height="24" fill="var(--dia-bg-card)" stroke="var(--dia-stroke)"/>
+  <text x="220" y="39" text-anchor="middle" fill="var(--dia-stroke)">[5 2 4 1]</text>
+  <!-- level 1 -->
+  <rect x="80" y="74" width="80" height="24" fill="var(--dia-bg-card)" stroke="var(--dia-blue)"/>
+  <text x="120" y="91" text-anchor="middle" fill="var(--dia-blue)">[5 2]</text>
+  <rect x="280" y="74" width="80" height="24" fill="var(--dia-bg-card)" stroke="var(--dia-blue)"/>
+  <text x="320" y="91" text-anchor="middle" fill="var(--dia-blue)">[4 1]</text>
+  <!-- level 2 -->
+  <g fill="var(--dia-bg-card)" stroke="var(--dia-stroke-soft)">
+    <rect x="55" y="124" width="34" height="22"/><rect x="135" y="124" width="34" height="22"/>
+    <rect x="255" y="124" width="34" height="22"/><rect x="335" y="124" width="34" height="22"/>
+  </g>
+  <g text-anchor="middle" fill="var(--dia-stroke-soft)">
+    <text x="72" y="140">5</text><text x="152" y="140">2</text><text x="272" y="140">4</text><text x="352" y="140">1</text>
+  </g>
+  <!-- merged results -->
+  <text x="120" y="178" text-anchor="middle" fill="var(--dia-accent)">[2 5]</text>
+  <text x="320" y="178" text-anchor="middle" fill="var(--dia-accent)">[1 4]</text>
+  <text x="220" y="202" text-anchor="middle" fill="var(--dia-accent)" font-weight="500">[1 2 4 5]</text>
+  <!-- divide lines -->
+  <g stroke="var(--dia-blue)" opacity="0.6">
+    <line x1="190" y1="46" x2="120" y2="74"/><line x1="250" y1="46" x2="320" y2="74"/>
+    <line x1="105" y1="98" x2="72" y2="124"/><line x1="135" y1="98" x2="152" y2="124"/>
+    <line x1="305" y1="98" x2="272" y2="124"/><line x1="335" y1="98" x2="352" y2="124"/>
+  </g>
+</svg>
+<p class="figure-caption">归并排序：不断对半「分」到单元素（天然有序），再两两「合并」成有序段，自底向上拼出完整有序数组。树高 log n，每层合并共 n 次比较，故 O(n log n)。</p>
+</div>
+
 ## 三种排序对比
 
 | 算法 | 思想 | 最坏比较次数 | 备注 |

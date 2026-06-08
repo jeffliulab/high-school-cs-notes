@@ -50,6 +50,30 @@ public static int binarySearch(int[] arr, int target) {
 
 只用 2 步就找到，而线性查找要 6 步。
 
+<div class="diagram">
+<svg viewBox="0 0 430 170" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace" font-size="12">
+  <!-- values row -->
+  <g fill="var(--dia-bg-card)" stroke="var(--dia-stroke)">
+    <rect x="20" y="40" width="56" height="34"/><rect x="76" y="40" width="56" height="34"/><rect x="132" y="40" width="56" height="34"/>
+    <rect x="188" y="40" width="56" height="34"/><rect x="244" y="40" width="56" height="34"/><rect x="300" y="40" width="56" height="34"/><rect x="356" y="40" width="56" height="34"/>
+  </g>
+  <g text-anchor="middle" fill="var(--dia-stroke)">
+    <text x="48" y="62">2</text><text x="104" y="62">5</text><text x="160" y="62">8</text><text x="216" y="62">12</text><text x="272" y="62">16</text><text x="328" y="62">23</text><text x="384" y="62">38</text>
+  </g>
+  <g text-anchor="middle" fill="var(--dia-stroke-tertiary)" font-size="10">
+    <text x="48" y="88">0</text><text x="104" y="88">1</text><text x="160" y="88">2</text><text x="216" y="88">3</text><text x="272" y="88">4</text><text x="328" y="88">5</text><text x="384" y="88">6</text>
+  </g>
+  <!-- step1: whole range, mid=3 -->
+  <line x1="20" y1="106" x2="412" y2="106" stroke="var(--dia-blue)" stroke-width="3"/>
+  <text x="216" y="120" text-anchor="middle" fill="var(--dia-blue)" font-size="10">① mid=3 (12) &lt; 23 → 弃左半</text>
+  <!-- step2: right half, mid=5 -->
+  <line x1="244" y1="134" x2="412" y2="134" stroke="var(--dia-accent)" stroke-width="3"/>
+  <text x="328" y="148" text-anchor="middle" fill="var(--dia-accent)" font-size="10">② mid=5 (23) = 23 ✓ 命中</text>
+  <text x="80" y="148" text-anchor="middle" fill="var(--dia-stroke-tertiary)" font-size="10">←已排除</text>
+</svg>
+<p class="figure-caption">二分查找每步比较中点：12&lt;23 排除左半，搜索范围从 7 个缩到 3 个再到命中——每次砍掉一半。</p>
+</div>
+
 ## 效率对比
 
 | | 顺序查找 | 二分查找 |

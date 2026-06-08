@@ -32,6 +32,25 @@ System.out.println(a[4]);   // 5（最后一个）
 a[1] = 99;                  // 修改第二个元素
 ```
 
+<div class="diagram">
+<svg viewBox="0 0 420 110" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace" font-size="14">
+  <g fill="var(--dia-bg-card)" stroke="var(--dia-stroke)">
+    <rect x="40" y="30" width="60" height="44"/><rect x="100" y="30" width="60" height="44"/>
+    <rect x="160" y="30" width="60" height="44"/><rect x="220" y="30" width="60" height="44"/>
+    <rect x="280" y="30" width="60" height="44"/>
+  </g>
+  <g text-anchor="middle" fill="var(--dia-accent)">
+    <text x="70" y="58">3</text><text x="130" y="58">1</text><text x="190" y="58">4</text><text x="250" y="58">1</text><text x="310" y="58">5</text>
+  </g>
+  <g text-anchor="middle" fill="var(--dia-stroke-soft)" font-size="11">
+    <text x="70" y="92">[0]</text><text x="130" y="92">[1]</text><text x="190" y="92">[2]</text><text x="250" y="92">[3]</text><text x="310" y="92">[4]</text>
+  </g>
+  <text x="190" y="20" text-anchor="middle" fill="var(--dia-stroke-soft)" font-size="11">a.length = 5，合法索引 0 … 4</text>
+  <text x="378" y="58" fill="var(--dia-stroke-tertiary)" font-size="11">a[5] ✗</text>
+</svg>
+<p class="figure-caption">长度为 5 的数组占据索引 0–4；访问 a[5] 越界抛 ArrayIndexOutOfBoundsException。</p>
+</div>
+
 ## length 字段
 
 `数组.length` 给出元素个数（注意：是**字段没有括号**，区别于 `String.length()` 方法）：

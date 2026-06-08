@@ -32,6 +32,28 @@ System.out.println(Counter.getTotal());  // 2（用类名调用静态方法）
 System.out.println(b.getId());           // 2
 ```
 
+<div class="diagram">
+<svg viewBox="0 0 430 170" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace" font-size="12">
+  <!-- class-level static -->
+  <rect x="140" y="20" width="150" height="40" rx="4" fill="var(--dia-gold)" fill-opacity="0.15" stroke="var(--dia-gold)"/>
+  <text x="215" y="38" text-anchor="middle" fill="var(--dia-gold)" font-size="11">类 Counter（共享一份）</text>
+  <text x="215" y="54" text-anchor="middle" fill="var(--dia-gold)">static total = 2</text>
+  <!-- instance a -->
+  <rect x="40" y="110" width="140" height="42" rx="4" fill="var(--dia-bg-card)" stroke="var(--dia-blue)"/>
+  <text x="110" y="128" text-anchor="middle" fill="var(--dia-blue)" font-size="11">对象 a</text>
+  <text x="110" y="144" text-anchor="middle" fill="var(--dia-stroke)">id = 1</text>
+  <!-- instance b -->
+  <rect x="250" y="110" width="140" height="42" rx="4" fill="var(--dia-bg-card)" stroke="var(--dia-blue)"/>
+  <text x="320" y="128" text-anchor="middle" fill="var(--dia-blue)" font-size="11">对象 b</text>
+  <text x="320" y="144" text-anchor="middle" fill="var(--dia-stroke)">id = 2</text>
+  <!-- links -->
+  <line x1="110" y1="110" x2="180" y2="60" stroke="var(--dia-stroke-soft)" stroke-dasharray="3 3"/>
+  <line x1="320" y1="110" x2="250" y2="60" stroke="var(--dia-stroke-soft)" stroke-dasharray="3 3"/>
+  <text x="215" y="92" text-anchor="middle" fill="var(--dia-stroke-soft)" font-size="10">两对象共享同一个 static total</text>
+</svg>
+<p class="figure-caption">实例变量 id 每个对象各有一份；静态变量 total 属于类本身、全体对象共享一份——任一对象创建都会让这唯一的 total 递增。</p>
+</div>
+
 ## 静态变量（类变量）
 
 `static` 字段在内存中**只有一份**，被该类所有对象共享。常用于：

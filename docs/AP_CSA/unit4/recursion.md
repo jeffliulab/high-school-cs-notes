@@ -31,6 +31,37 @@ factorial(3) = 3 * factorial(2)
              = 3 * (2 * (1 * 1)) = 6
 ```
 
+调用层层「压栈」深入到基准情形，再层层「返回」带着结果回升：
+
+<div class="diagram">
+<svg viewBox="0 0 440 200" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace" font-size="12">
+  <!-- descend (left) -->
+  <text x="95" y="18" text-anchor="middle" fill="var(--dia-blue)" font-size="11">调用下降（压栈）</text>
+  <g fill="var(--dia-bg-card)" stroke="var(--dia-blue)">
+    <rect x="30" y="28" width="130" height="26"/><rect x="45" y="66" width="115" height="26"/>
+    <rect x="60" y="104" width="100" height="26"/><rect x="75" y="142" width="85" height="26"/>
+  </g>
+  <g fill="var(--dia-blue)"><text x="40" y="46">factorial(3)</text><text x="55" y="84">factorial(2)</text><text x="70" y="122">factorial(1)</text><text x="85" y="160">factorial(0)</text></g>
+  <line x1="95" y1="54" x2="103" y2="66" stroke="var(--dia-blue)" marker-end="url(#rd)"/>
+  <line x1="103" y1="92" x2="110" y2="104" stroke="var(--dia-blue)" marker-end="url(#rd)"/>
+  <line x1="110" y1="130" x2="118" y2="142" stroke="var(--dia-blue)" marker-end="url(#rd)"/>
+  <text x="120" y="186" text-anchor="middle" fill="var(--dia-green)" font-size="10">基准 → 返回 1</text>
+  <!-- ascend (right) -->
+  <text x="340" y="18" text-anchor="middle" fill="var(--dia-accent)" font-size="11">结果回升（返回）</text>
+  <g fill="var(--dia-accent)" text-anchor="end">
+    <text x="410" y="160">0! → 1</text><text x="410" y="122">1·1 = 1</text><text x="410" y="84">2·1 = 2</text><text x="410" y="46">3·2 = 6</text>
+  </g>
+  <g stroke="var(--dia-accent)" marker-end="url(#ru)">
+    <line x1="360" y1="150" x2="360" y2="130"/><line x1="360" y1="112" x2="360" y2="92"/><line x1="360" y1="74" x2="360" y2="54"/>
+  </g>
+  <defs>
+    <marker id="rd" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L5,3 L0,6" fill="var(--dia-blue)"/></marker>
+    <marker id="ru" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L5,3 L0,6" fill="var(--dia-accent)"/></marker>
+  </defs>
+</svg>
+<p class="figure-caption">递归调用栈：先一路调用到基准情形 factorial(0)=1，再逐层把结果相乘返回，最终得到 6。</p>
+</div>
+
 ## 求和示例
 
 ```java
