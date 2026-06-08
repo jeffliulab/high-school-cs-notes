@@ -1,6 +1,6 @@
 # 项目说明
 
-本项目是一个基于 MkDocs + Material 主题的**高中信息学学习笔记**网站，覆盖 AP CSA 与 USACO 竞赛（Bronze/Silver/Gold/Platinum）。
+本项目是一个基于 MkDocs + Material 主题的**高中计算机笔记**网站，覆盖 AP CSA 与 USACO 竞赛（Bronze/Silver/Gold/Platinum）。
 
 ## 技术栈
 

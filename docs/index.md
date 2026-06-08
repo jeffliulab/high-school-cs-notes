@@ -4,9 +4,9 @@ hide:
   - toc
 ---
 
-# 高中信息学笔记
+# 高中计算机笔记
 
-面向高中阶段的计算机科学学习笔记，覆盖 **AP Computer Science A**（2025 秋季最新考纲）与 **USACO** 美国信息学奥林匹克四个级别（Bronze / Silver / Gold / Platinum）。中英双语，内容持续更新中。
+面向高中阶段的计算机科学学习笔记，覆盖 **AP Computer Science A**（2025 秋季最新考纲）与 **USACO** 美国计算机奥林匹克竞赛四个级别（Bronze / Silver / Gold / Platinum）。中英双语，内容持续更新中。
 
 <div class="grid cards" markdown>
 
