@@ -33,6 +33,34 @@ void rec(int i) {
 // 调用 rec(0)，共 2^n 个叶子
 ```
 
+每个元素分出「选 / 不选」两条分支，整个搜索过程是一棵**二叉决策树**，叶子恰好对应全部 $2^n$ 个子集：
+
+<div class="diagram">
+<svg viewBox="0 0 420 180" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace" font-size="11">
+  <!-- nodes -->
+  <g fill="var(--dia-bg-card)" stroke="var(--dia-stroke)">
+    <circle cx="210" cy="25" r="14"/>
+    <circle cx="110" cy="80" r="14"/><circle cx="310" cy="80" r="14"/>
+  </g>
+  <g fill="var(--dia-accent)" fill-opacity="0.15" stroke="var(--dia-accent)">
+    <circle cx="55" cy="140" r="13"/><circle cx="165" cy="140" r="13"/><circle cx="255" cy="140" r="13"/><circle cx="365" cy="140" r="13"/>
+  </g>
+  <text x="210" y="29" text-anchor="middle" fill="var(--dia-stroke)" font-size="10">a₀?</text>
+  <text x="110" y="84" text-anchor="middle" fill="var(--dia-stroke)" font-size="10">a₁?</text>
+  <text x="310" y="84" text-anchor="middle" fill="var(--dia-stroke)" font-size="10">a₁?</text>
+  <g text-anchor="middle" fill="var(--dia-accent)" font-size="9"><text x="55" y="143">{}</text><text x="165" y="143">{a₁}</text><text x="255" y="143">{a₀}</text><text x="365" y="143">{a₀a₁}</text></g>
+  <!-- edges with labels -->
+  <g stroke="var(--dia-stroke-soft)">
+    <line x1="198" y1="34" x2="122" y2="70"/><line x1="222" y1="34" x2="298" y2="70"/>
+    <line x1="100" y1="91" x2="63" y2="128"/><line x1="120" y1="91" x2="158" y2="128"/>
+    <line x1="300" y1="91" x2="263" y2="128"/><line x1="320" y1="91" x2="358" y2="128"/>
+  </g>
+  <text x="150" y="52" fill="var(--dia-stroke-tertiary)" font-size="9">不选</text>
+  <text x="258" y="52" fill="var(--dia-stroke-tertiary)" font-size="9">选</text>
+</svg>
+<p class="figure-caption">枚举 2 个元素子集的决策树：每层一个元素分「选/不选」，4 个叶子对应全部 2²=4 个子集。元素越多树越深，故仅 n≤20 左右可行。</p>
+</div>
+
 ## 用 vector 收集当前选择（更通用）
 
 ```cpp

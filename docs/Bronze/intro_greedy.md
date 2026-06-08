@@ -19,6 +19,28 @@
 
 **贪心策略：按结束时间排序，每次选能选的、结束最早的。**
 
+<div class="diagram">
+<svg viewBox="0 0 420 160" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace" font-size="11">
+  <line x1="20" y1="135" x2="410" y2="135" stroke="var(--dia-stroke)"/>
+  <text x="410" y="152" text-anchor="end" fill="var(--dia-stroke-soft)" font-size="10">时间 →</text>
+  <!-- chosen activities (green) -->
+  <rect x="30" y="25" width="90" height="18" rx="3" fill="var(--dia-green)" fill-opacity="0.3" stroke="var(--dia-green)"/>
+  <text x="75" y="38" text-anchor="middle" fill="var(--dia-green)" font-size="10">A ✓</text>
+  <rect x="140" y="25" width="100" height="18" rx="3" fill="var(--dia-green)" fill-opacity="0.3" stroke="var(--dia-green)"/>
+  <text x="190" y="38" text-anchor="middle" fill="var(--dia-green)" font-size="10">C ✓</text>
+  <rect x="270" y="25" width="110" height="18" rx="3" fill="var(--dia-green)" fill-opacity="0.3" stroke="var(--dia-green)"/>
+  <text x="325" y="38" text-anchor="middle" fill="var(--dia-green)" font-size="10">E ✓</text>
+  <!-- rejected (overlapping) -->
+  <rect x="90" y="55" width="120" height="18" rx="3" fill="var(--dia-accent-soft)" stroke="var(--dia-accent)" stroke-dasharray="3 2"/>
+  <text x="150" y="68" text-anchor="middle" fill="var(--dia-accent)" font-size="10">B ✗ 与A重叠</text>
+  <rect x="210" y="80" width="130" height="18" rx="3" fill="var(--dia-accent-soft)" stroke="var(--dia-accent)" stroke-dasharray="3 2"/>
+  <text x="275" y="93" text-anchor="middle" fill="var(--dia-accent)" font-size="10">D ✗ 与C重叠</text>
+  <!-- end markers -->
+  <g stroke="var(--dia-green-soft)" stroke-dasharray="2 2"><line x1="120" y1="43" x2="120" y2="135"/><line x1="240" y1="43" x2="240" y2="135"/></g>
+</svg>
+<p class="figure-caption">按结束时间排序后贪心：每次选结束最早且不冲突的活动（A→C→E）。结束越早，给后面留的空间越大，故得到最多不重叠活动数。</p>
+</div>
+
 ```cpp
 struct Act { int s, e; };
 bool cmp(Act a, Act b) { return a.e < b.e; }  // 按结束时间升序

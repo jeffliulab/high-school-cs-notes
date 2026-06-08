@@ -12,6 +12,25 @@
 - **连通块（连通分量）**：互相可达的顶点构成的一组。
 - **度**：一个顶点连了几条边。
 
+<div class="diagram">
+<svg viewBox="0 0 420 170" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace" font-size="12">
+  <!-- component 1: 1-2-3 triangle + 4 -->
+  <g stroke="var(--dia-stroke)"><line x1="50" y1="40" x2="120" y2="40"/><line x1="50" y1="40" x2="85" y2="100"/><line x1="120" y1="40" x2="85" y2="100"/><line x1="85" y1="100" x2="60" y2="140"/></g>
+  <g fill="var(--dia-blue)" fill-opacity="0.15" stroke="var(--dia-blue)">
+    <circle cx="50" cy="40" r="16"/><circle cx="120" cy="40" r="16"/><circle cx="85" cy="100" r="16"/><circle cx="60" cy="140" r="16"/>
+  </g>
+  <g text-anchor="middle" fill="var(--dia-blue)"><text x="50" y="44">1</text><text x="120" y="44">2</text><text x="85" y="104">3</text><text x="60" y="144">4</text></g>
+  <!-- component 2: 5-6 -->
+  <line x1="280" y1="60" x2="350" y2="100" stroke="var(--dia-stroke)"/>
+  <g fill="var(--dia-green)" fill-opacity="0.15" stroke="var(--dia-green)"><circle cx="280" cy="60" r="16"/><circle cx="350" cy="100" r="16"/></g>
+  <g text-anchor="middle" fill="var(--dia-green)"><text x="280" y="64">5</text><text x="350" y="104">6</text></g>
+  <text x="80" y="20" text-anchor="middle" fill="var(--dia-blue)" font-size="11">连通块 A</text>
+  <text x="315" y="40" text-anchor="middle" fill="var(--dia-green)" font-size="11">连通块 B</text>
+  <text x="210" y="160" text-anchor="middle" fill="var(--dia-stroke-soft)" font-size="11">此图有 2 个连通块；顶点 2 的度为 2</text>
+</svg>
+<p class="figure-caption">无向图示例：{1,2,3,4} 和 {5,6} 是两个互不相连的连通块——铜级招牌题就是「数连通块个数」。</p>
+</div>
+
 ## 图的表示：邻接表
 
 最常用，用 `vector` 数组存每个点的邻居：
