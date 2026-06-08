@@ -35,6 +35,32 @@ void unite(int x, int y) {
 }
 ```
 
+**路径压缩**在 `find` 时把沿途节点直接挂到根上，让树越压越扁：
+
+<div class="diagram">
+<svg viewBox="0 0 420 160" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace" font-size="12">
+  <text x="95" y="16" text-anchor="middle" fill="var(--dia-stroke-soft)" font-size="10">压缩前（链）</text>
+  <text x="320" y="16" text-anchor="middle" fill="var(--dia-stroke-soft)" font-size="10">find(4) 后（扁平）</text>
+  <!-- before: chain 1->2->3->4 -->
+  <g stroke="var(--dia-stroke)"><line x1="60" y1="42" x2="60" y2="68"/><line x1="60" y1="92" x2="60" y2="118"/><line x1="60" y1="92" x2="60" y2="118"/></g>
+  <line x1="60" y1="42" x2="60" y2="68" stroke="var(--dia-stroke)"/>
+  <g fill="var(--dia-bg-card)" stroke="var(--dia-blue)">
+    <circle cx="60" cy="35" r="14"/><circle cx="60" cy="75" r="14"/><circle cx="60" cy="115" r="14"/><circle cx="120" cy="115" r="14"/>
+  </g>
+  <g stroke="var(--dia-stroke)"><line x1="60" y1="49" x2="60" y2="61"/><line x1="60" y1="89" x2="60" y2="101"/><line x1="72" y1="108" x2="108" y2="120" opacity="0"/></g>
+  <line x1="68" y1="105" x2="112" y2="115" stroke="var(--dia-stroke)"/>
+  <g text-anchor="middle" fill="var(--dia-blue)"><text x="60" y="39">1</text><text x="60" y="79">2</text><text x="60" y="119">3</text><text x="120" y="119">4</text></g>
+  <text x="22" y="39" fill="var(--dia-accent)" font-size="9">根</text>
+  <!-- after: star, root 1 with 2,3,4 directly -->
+  <g stroke="var(--dia-green)"><line x1="320" y1="48" x2="270" y2="100"/><line x1="320" y1="48" x2="320" y2="100"/><line x1="320" y1="48" x2="370" y2="100"/></g>
+  <circle cx="320" cy="40" r="14" fill="var(--dia-bg-card)" stroke="var(--dia-accent)"/>
+  <g fill="var(--dia-bg-card)" stroke="var(--dia-green)"><circle cx="270" cy="108" r="14"/><circle cx="320" cy="108" r="14"/><circle cx="370" cy="108" r="14"/></g>
+  <text x="320" y="44" text-anchor="middle" fill="var(--dia-accent)">1</text>
+  <g text-anchor="middle" fill="var(--dia-green)"><text x="270" y="112">2</text><text x="320" y="112">3</text><text x="370" y="112">4</text></g>
+</svg>
+<p class="figure-caption">路径压缩：find(4) 把查找路径上的 2、3、4 全部直接挂到根 1 下，后续查询几乎 O(1)。</p>
+</div>
+
 两项优化合用后，每次操作均摊近 $O(\alpha(n))$（反阿克曼，实际可视为常数）。
 
 ## 应用：连通块数量 / 动态连通性
