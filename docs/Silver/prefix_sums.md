@@ -15,6 +15,28 @@ $$\text{pre}[i] = a[0] + a[1] + \dots + a[i-1]$$
 
 $$\sum_{i=l}^{r} a[i] = \text{pre}[r+1] - \text{pre}[l]$$
 
+<div class="diagram">
+<svg viewBox="0 0 440 160" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace" font-size="12">
+  <!-- a -->
+  <text x="12" y="42" fill="var(--dia-stroke-soft)" font-size="11">a</text>
+  <g fill="var(--dia-bg-card)" stroke="var(--dia-stroke)">
+    <rect x="40" y="26" width="48" height="30"/><rect x="88" y="26" width="48" height="30"/><rect x="136" y="26" width="48" height="30"/><rect x="184" y="26" width="48" height="30"/><rect x="232" y="26" width="48" height="30"/></g>
+  <g text-anchor="middle" fill="var(--dia-stroke)"><text x="64" y="46">2</text><text x="112" y="46">4</text><text x="160" y="46">1</text><text x="208" y="46">5</text><text x="256" y="46">3</text></g>
+  <!-- pre -->
+  <text x="6" y="104" fill="var(--dia-stroke-soft)" font-size="11">pre</text>
+  <g fill="var(--dia-bg-card)" stroke="var(--dia-blue)">
+    <rect x="16" y="88" width="48" height="30"/><rect x="64" y="88" width="48" height="30"/><rect x="112" y="88" width="48" height="30"/><rect x="160" y="88" width="48" height="30"/><rect x="208" y="88" width="48" height="30"/><rect x="256" y="88" width="48" height="30"/></g>
+  <g text-anchor="middle" fill="var(--dia-blue)"><text x="40" y="108">0</text><text x="88" y="108">2</text><text x="136" y="108">6</text><text x="184" y="108">7</text><text x="232" y="108">12</text><text x="280" y="108">15</text></g>
+  <g text-anchor="middle" fill="var(--dia-stroke-tertiary)" font-size="9"><text x="40" y="132">0</text><text x="88" y="132">1</text><text x="136" y="132">2</text><text x="184" y="132">3</text><text x="232" y="132">4</text><text x="280" y="132">5</text></g>
+  <!-- highlight query [1,3] = pre[4]-pre[1] = 12-2 = 10 -->
+  <rect x="88" y="22" width="144" height="38" fill="none" stroke="var(--dia-accent)" stroke-width="2"/>
+  <text x="330" y="44" fill="var(--dia-accent)" font-size="11">区间[1,3]和</text>
+  <text x="330" y="104" fill="var(--dia-accent)" font-size="11">=pre[4]−pre[1]</text>
+  <text x="330" y="120" fill="var(--dia-accent)" font-size="11">=12−2=10</text>
+</svg>
+<p class="figure-caption">pre[i] 是前 i 个元素之和（pre[0]=0）。区间 [1,3] 之和 = pre[4]−pre[1] = 12−2 = 10，一次减法 O(1) 完成。</p>
+</div>
+
 ## 实现
 
 ```cpp

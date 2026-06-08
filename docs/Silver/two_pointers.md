@@ -41,6 +41,23 @@ for (int r = 0; r < n; r++) {
 }
 ```
 
+<div class="diagram">
+<svg viewBox="0 0 420 130" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace" font-size="13">
+  <g fill="var(--dia-bg-card)" stroke="var(--dia-stroke)">
+    <rect x="30" y="45" width="46" height="34"/><rect x="76" y="45" width="46" height="34"/><rect x="122" y="45" width="46" height="34"/>
+    <rect x="168" y="45" width="46" height="34"/><rect x="214" y="45" width="46" height="34"/><rect x="260" y="45" width="46" height="34"/><rect x="306" y="45" width="46" height="34"/>
+  </g>
+  <!-- window highlight l=2..r=4 -->
+  <rect x="122" y="41" width="138" height="42" fill="var(--dia-accent-soft)" stroke="var(--dia-accent)" stroke-width="2"/>
+  <g text-anchor="middle" fill="var(--dia-stroke)"><text x="53" y="67">3</text><text x="99" y="67">1</text><text x="145" y="67">2</text><text x="191" y="67">4</text><text x="237" y="67">1</text><text x="283" y="67">5</text><text x="329" y="67">2</text></g>
+  <text x="145" y="100" text-anchor="middle" fill="var(--dia-accent)" font-size="11">↑ l</text>
+  <text x="237" y="100" text-anchor="middle" fill="var(--dia-blue)" font-size="11">r ↑</text>
+  <text x="191" y="30" text-anchor="middle" fill="var(--dia-accent)" font-size="11">窗口 [l, r]，和 ≤ K</text>
+  <text x="210" y="120" text-anchor="middle" fill="var(--dia-stroke-soft)" font-size="10">r 右移扩张；和超 K 时 l 右移收缩 —— 两指针都只前进</text>
+</svg>
+<p class="figure-caption">滑动窗口：右指针 r 不断扩张纳入新元素，一旦窗口和超过 K，左指针 l 右移收缩。l、r 各自只前进、不回退，故总移动 O(n)。</p>
+</div>
+
 每个元素**最多被左、右指针各扫一次**，所以是 $O(n)$。
 
 ## 关键：为什么是 O(n)

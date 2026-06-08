@@ -44,6 +44,27 @@ void bfs(int s) {
 }
 ```
 
+<div class="diagram">
+<svg viewBox="0 0 420 170" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace" font-size="12">
+  <!-- layer separators -->
+  <g stroke="var(--dia-rule)" stroke-dasharray="3 3"><line x1="110" y1="15" x2="110" y2="155"/><line x1="230" y1="15" x2="230" y2="155"/><line x1="350" y1="15" x2="350" y2="155"/></g>
+  <g text-anchor="middle" fill="var(--dia-stroke-soft)" font-size="10"><text x="55" y="28">dist 0</text><text x="170" y="28">dist 1</text><text x="290" y="28">dist 2</text></g>
+  <!-- edges -->
+  <g stroke="var(--dia-stroke)">
+    <line x1="55" y1="85" x2="170" y2="55"/><line x1="55" y1="85" x2="170" y2="115"/>
+    <line x1="170" y1="55" x2="290" y2="55"/><line x1="170" y1="115" x2="290" y2="120"/><line x1="170" y1="55" x2="290" y2="120"/>
+  </g>
+  <!-- nodes -->
+  <circle cx="55" cy="85" r="16" fill="var(--dia-accent)" fill-opacity="0.25" stroke="var(--dia-accent)"/>
+  <g fill="var(--dia-blue)" fill-opacity="0.15" stroke="var(--dia-blue)"><circle cx="170" cy="55" r="16"/><circle cx="170" cy="115" r="16"/></g>
+  <g fill="var(--dia-green)" fill-opacity="0.15" stroke="var(--dia-green)"><circle cx="290" cy="55" r="16"/><circle cx="290" cy="120" r="16"/></g>
+  <text x="55" y="89" text-anchor="middle" fill="var(--dia-accent)">S</text>
+  <g text-anchor="middle" fill="var(--dia-blue)"><text x="170" y="59">1</text><text x="170" y="119">1</text></g>
+  <g text-anchor="middle" fill="var(--dia-green)"><text x="290" y="59">2</text><text x="290" y="124">2</text></g>
+</svg>
+<p class="figure-caption">BFS 从起点 S 一层层向外扩展，dist 标注到 S 的最短边数：先访问所有 1 步可达点，再访问 2 步可达点。</p>
+</div>
+
 > **BFS 的核心价值**：在**无权图**上，从起点 BFS 得到的 `dist[v]` 就是到每个点的**最短边数**。DFS 做不到这点。
 
 ## 连通块计数
