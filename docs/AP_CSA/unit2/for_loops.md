@@ -20,6 +20,30 @@ for (int i = 0; i < 5; i++) {
 
 执行顺序：**初始化（一次）→ 判断条件 → 循环体 → 更新 → 判断条件 → ……**
 
+<div class="diagram">
+<svg viewBox="0 0 420 130" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace" font-size="12">
+  <text x="20" y="30" fill="var(--dia-stroke)">for (</text>
+  <rect x="62" y="14" width="78" height="24" rx="3" fill="var(--dia-green-soft)" fill-opacity="0.3" stroke="var(--dia-green)"/>
+  <text x="101" y="30" text-anchor="middle" fill="var(--dia-green)">int i=0</text>
+  <text x="143" y="30" fill="var(--dia-stroke)">;</text>
+  <rect x="152" y="14" width="60" height="24" rx="3" fill="var(--dia-blue)" fill-opacity="0.15" stroke="var(--dia-blue)"/>
+  <text x="182" y="30" text-anchor="middle" fill="var(--dia-blue)">i&lt;5</text>
+  <text x="215" y="30" fill="var(--dia-stroke)">;</text>
+  <rect x="224" y="14" width="50" height="24" rx="3" fill="var(--dia-accent-soft)" stroke="var(--dia-accent)"/>
+  <text x="249" y="30" text-anchor="middle" fill="var(--dia-accent)">i++</text>
+  <text x="278" y="30" fill="var(--dia-stroke)">) { ... }</text>
+  <!-- order labels -->
+  <text x="101" y="58" text-anchor="middle" fill="var(--dia-green)" font-size="10">① 初始化(仅一次)</text>
+  <text x="182" y="76" text-anchor="middle" fill="var(--dia-blue)" font-size="10">② 判断条件</text>
+  <text x="340" y="58" text-anchor="middle" fill="var(--dia-stroke-soft)" font-size="10">③ 循环体</text>
+  <text x="249" y="94" text-anchor="middle" fill="var(--dia-accent)" font-size="10">④ 更新</text>
+  <path d="M249,100 C200,118 182,100 182,82" fill="none" stroke="var(--dia-stroke-soft)" stroke-dasharray="3 3" marker-end="url(#fo)"/>
+  <text x="150" y="118" fill="var(--dia-stroke-soft)" font-size="10">④后回到②</text>
+  <defs><marker id="fo" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L5,3 L0,6" fill="var(--dia-stroke-soft)"/></marker></defs>
+</svg>
+<p class="figure-caption">for 头部三段的执行次序：① 初始化只跑一次，之后 ②判断 → ③循环体 → ④更新 循环往复，直到条件为 false。</p>
+</div>
+
 ## for 与 while 的等价关系
 
 ```java

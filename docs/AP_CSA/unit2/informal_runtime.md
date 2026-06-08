@@ -59,6 +59,26 @@ while (x > 1) {
 
 > 当 `n` 很大时，`n²` 算法可能慢到无法接受，而 `log n` / `n` 算法依然飞快。**选对算法比优化常数更重要**。
 
+<div class="diagram">
+<svg viewBox="0 0 380 230" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace" font-size="11">
+  <!-- axes -->
+  <line x1="45" y1="200" x2="350" y2="200" stroke="var(--dia-stroke)"/>
+  <line x1="45" y1="200" x2="45" y2="20" stroke="var(--dia-stroke)"/>
+  <text x="195" y="222" text-anchor="middle" fill="var(--dia-stroke-soft)">输入规模 n →</text>
+  <text x="18" y="110" fill="var(--dia-stroke-soft)" transform="rotate(-90 18 110)">运算次数 →</text>
+  <!-- curves -->
+  <path d="M45,195 Q200,188 350,178" fill="none" stroke="var(--dia-green)" stroke-width="2"/>
+  <text x="300" y="172" fill="var(--dia-green)">O(log n)</text>
+  <path d="M45,200 L350,120" fill="none" stroke="var(--dia-blue)" stroke-width="2"/>
+  <text x="300" y="112" fill="var(--dia-blue)">O(n)</text>
+  <path d="M45,200 Q260,170 330,40" fill="none" stroke="var(--dia-gold)" stroke-width="2"/>
+  <text x="285" y="60" fill="var(--dia-gold)">O(n²)</text>
+  <path d="M45,200 Q120,180 110,25" fill="none" stroke="var(--dia-accent)" stroke-width="2"/>
+  <text x="120" y="30" fill="var(--dia-accent)">O(2ⁿ)</text>
+</svg>
+<p class="figure-caption">复杂度增长对比：O(2ⁿ) 与 O(n²) 随 n 急剧爆炸，O(n)、O(log n) 平缓——数据一大，量级差异碾压一切常数优化。</p>
+</div>
+
 ## 如何比较两个算法
 
 数出各自的关键操作次数，看哪个随 `n` 增长更慢：

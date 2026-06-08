@@ -12,6 +12,32 @@ while (条件) {
 
 执行流程：判断条件 → 若 `true` 执行循环体 → 回到判断 → …… → 条件为 `false` 时退出。
 
+<div class="diagram">
+<svg viewBox="0 0 360 200" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace" font-size="12">
+  <!-- condition diamond -->
+  <polygon points="130,20 230,55 130,90 30,55" fill="var(--dia-bg-card)" stroke="var(--dia-accent)"/>
+  <text x="130" y="59" text-anchor="middle" fill="var(--dia-accent)">条件?</text>
+  <!-- body box -->
+  <rect x="60" y="120" width="140" height="40" rx="4" fill="var(--dia-bg-card)" stroke="var(--dia-stroke)"/>
+  <text x="130" y="144" text-anchor="middle" fill="var(--dia-stroke)">循环体 + 更新</text>
+  <!-- exit -->
+  <text x="270" y="59" fill="var(--dia-stroke-soft)">false → 退出</text>
+  <!-- arrows -->
+  <line x1="130" y1="90" x2="130" y2="120" stroke="var(--dia-green)" marker-end="url(#wt)"/>
+  <text x="138" y="110" fill="var(--dia-green)">true</text>
+  <line x1="230" y1="55" x2="258" y2="55" stroke="var(--dia-stroke)" marker-end="url(#we)"/>
+  <!-- loop back -->
+  <path d="M200,140 C300,140 300,55 232,55" fill="none" stroke="var(--dia-stroke-soft)" stroke-dasharray="4 3" marker-end="url(#wb)"/>
+  <text x="250" y="120" fill="var(--dia-stroke-soft)" font-size="10">回到判断</text>
+  <defs>
+    <marker id="wt" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="var(--dia-green)"/></marker>
+    <marker id="we" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="var(--dia-stroke)"/></marker>
+    <marker id="wb" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="var(--dia-stroke-soft)"/></marker>
+  </defs>
+</svg>
+<p class="figure-caption">while 循环流程：条件为 true 才进入循环体；循环体内必须有「更新」使条件最终变 false，否则死循环。</p>
+</div>
+
 ```java
 int i = 1;
 while (i <= 5) {
