@@ -1,0 +1,70 @@
+/* 限制代码块最大高度，显示滚动条 */
+pre code {
+  display: block;
+  max-height: 30em;
+  overflow: auto;
+}
+
+/* ====== 正文二级标题色带 ====== */
+.md-content h2 {
+  background: linear-gradient(135deg, #4051b5 0%, #5c6bc0 100%);
+  color: #fff !important;
+  padding: 10px 16px;
+  border-radius: 4px;
+  margin-top: 2.4em;
+  font-size: 1.15em;
+  letter-spacing: 0.02em;
+}
+
+.md-content h2 a {
+  color: #fff !important;
+}
+
+.md-content h2 .headerlink {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.md-content h2 .headerlink:hover {
+  color: #fff;
+}
+
+/* ====== 顶部标签页悬停下拉菜单 ====== */
+.tab-dropdown {
+  position: fixed;
+  background: var(--md-default-bg-color);
+  border-top: 2px solid var(--md-primary-fg-color);
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 4px 0;
+  min-width: 140px;
+  z-index: 400;
+  white-space: nowrap;
+}
+
+.tab-dropdown__item {
+  display: block;
+  padding: 6px 16px;
+  font-size: 0.7rem;
+  color: var(--md-default-fg-color--light);
+  text-decoration: none;
+  transition: background 0.12s, color 0.12s;
+}
+
+.tab-dropdown__item:hover {
+  background: rgba(64, 81, 181, 0.06);
+  color: var(--md-primary-fg-color);
+}
+
+/* 有子菜单的项显示箭头 */
+.tab-dropdown__item.has-submenu::after {
+  content: " \25B8";
+  float: right;
+  margin-left: 8px;
+  opacity: 0.5;
+}
+
+/* 三级子菜单样式 */
+.tab-submenu {
+  border-top: none;
+  border-left: 2px solid var(--md-primary-fg-color);
+}

@@ -1,0 +1,232 @@
+site_name: 高中信息学笔记
+site_author: Jeff Liu
+site_url: https://jeffliulab.github.io/high-school-cs-notes/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.top
+    - navigation.path
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: zh
+          default: true
+          name: 中文
+          build: true
+        - locale: en
+          name: English
+          build: true
+          site_name: "High School CS Notes"
+          nav_translations:
+            首页: Home
+            考纲总览: Overview
+            # === AP CSA ===
+            第一单元 使用对象与方法: "Unit 1: Using Objects & Methods"
+            第二单元 选择与迭代: "Unit 2: Selection & Iteration"
+            第三单元 类的创建: "Unit 3: Class Creation"
+            第四单元 数据集合: "Unit 4: Data Collections"
+            单元总览: Unit Overview
+            # === USACO 分类 ===
+            入门: Getting Started
+            完全搜索: Complete Search
+            排序与集合: Sorting & Sets
+            进阶专题: Additional Topics
+            前缀和: Prefix Sums
+            排序与查找: Sorting & Searching
+            图论: Graphs
+            其他专题: Other Topics
+            数学: Math
+            动态规划: Dynamic Programming
+            数据结构: Data Structures
+            树: Trees
+            区间查询: Range Queries
+            几何: Geometry
+            杂项: Miscellaneous
+
+nav:
+  - 首页: index.md
+
+  #### AP CSA ####
+  - AP CSA:
+    - 考纲总览: AP_CSA/index.md
+    - 第一单元 使用对象与方法:
+      - 单元总览: AP_CSA/unit1/index.md
+      - 程序与软件工程导论: AP_CSA/unit1/software_engineering.md
+      - 变量与基本数据类型: AP_CSA/unit1/variables_types.md
+      - 表达式与赋值: AP_CSA/unit1/expressions_assignment.md
+      - 复合赋值与类型转换: AP_CSA/unit1/compound_casting.md
+      - 对象与类的概念: AP_CSA/unit1/objects_classes.md
+      - 方法调用: AP_CSA/unit1/method_calls.md
+      - 带返回值的方法: AP_CSA/unit1/return_values.md
+      - 字符串对象与方法: AP_CSA/unit1/strings.md
+      - 包装类: AP_CSA/unit1/wrapper_classes.md
+      - Math 类: AP_CSA/unit1/math_class.md
+    - 第二单元 选择与迭代:
+      - 单元总览: AP_CSA/unit2/index.md
+      - 布尔表达式与关系运算: AP_CSA/unit2/boolean_expressions.md
+      - if 与 if-else 语句: AP_CSA/unit2/if_statements.md
+      - 逻辑运算符与德摩根定律: AP_CSA/unit2/logical_operators.md
+      - 嵌套条件与多分支: AP_CSA/unit2/nested_conditionals.md
+      - while 循环: AP_CSA/unit2/while_loops.md
+      - for 循环: AP_CSA/unit2/for_loops.md
+      - 嵌套循环: AP_CSA/unit2/nested_loops.md
+      - 算法与非正式运行时分析: AP_CSA/unit2/informal_runtime.md
+    - 第三单元 类的创建:
+      - 单元总览: AP_CSA/unit3/index.md
+      - 类的结构: AP_CSA/unit3/class_anatomy.md
+      - 构造方法与 new 运算符: AP_CSA/unit3/constructors.md
+      - 访问器与修改器方法: AP_CSA/unit3/accessor_mutator.md
+      - this 关键字与参数传递: AP_CSA/unit3/this_parameters.md
+      - 静态变量与静态方法: AP_CSA/unit3/static_members.md
+      - 作用域与访问控制: AP_CSA/unit3/scope_access.md
+      - 封装与 javadoc 设计: AP_CSA/unit3/encapsulation_javadoc.md
+    - 第四单元 数据集合:
+      - 单元总览: AP_CSA/unit4/index.md
+      - 一维数组: AP_CSA/unit4/arrays.md
+      - 数组遍历与 for-each: AP_CSA/unit4/array_traversal.md
+      - 数组标准算法: AP_CSA/unit4/array_algorithms.md
+      - ArrayList: AP_CSA/unit4/arraylist.md
+      - ArrayList 标准算法: AP_CSA/unit4/arraylist_algorithms.md
+      - 二维数组: AP_CSA/unit4/array_2d.md
+      - 二维数组遍历: AP_CSA/unit4/array_2d_traversal.md
+      - 文本文件与 Scanner: AP_CSA/unit4/text_files_scanner.md
+      - 顺序查找与二分查找: AP_CSA/unit4/searching.md
+      - 排序算法: AP_CSA/unit4/sorting.md
+      - 递归: AP_CSA/unit4/recursion.md
+
+  #### USACO Bronze ####
+  - USACO Bronze:
+    - 考纲总览: Bronze/index.md
+    - 入门:
+      - 时间复杂度: Bronze/time_complexity.md
+      - 数据结构入门: Bronze/intro_data_structures.md
+      - 模拟: Bronze/simulation.md
+    - 完全搜索:
+      - 基础完全搜索: Bronze/complete_search_basic.md
+      - 递归完全搜索: Bronze/complete_search_recursion.md
+    - 排序与集合:
+      - 排序入门: Bronze/intro_sorting.md
+      - 集合与映射: Bronze/sets_maps.md
+    - 进阶专题:
+      - 分类讨论: Bronze/casework.md
+      - 贪心入门: Bronze/intro_greedy.md
+      - 图论入门: Bronze/intro_graphs.md
+      - 矩形几何: Bronze/rectangle_geometry.md
+      - Ad Hoc 杂题: Bronze/ad_hoc.md
+
+  #### USACO Silver ####
+  - USACO Silver:
+    - 考纲总览: Silver/index.md
+    - 前缀和:
+      - 前缀和入门: Silver/prefix_sums.md
+      - 前缀和进阶: Silver/prefix_sums_advanced.md
+    - 排序与查找:
+      - 双指针: Silver/two_pointers.md
+      - 有序数组二分: Silver/binary_search_sorted.md
+      - 二分答案: Silver/binary_search.md
+      - 自定义比较器与坐标压缩: Silver/custom_comparators.md
+      - 排序贪心: Silver/greedy_sorting.md
+      - 优先队列: Silver/priority_queues.md
+    - 图论:
+      - 图的遍历: Silver/graph_traversal.md
+      - 洪水填充: Silver/flood_fill.md
+      - 树算法入门: Silver/intro_trees.md
+      - 函数图: Silver/functional_graphs.md
+    - 其他专题:
+      - 位运算入门: Silver/bitwise.md
+
+  #### USACO Gold ####
+  - USACO Gold:
+    - 考纲总览: Gold/index.md
+    - 数学:
+      - 整除: Gold/divisibility.md
+      - 模运算: Gold/modular_arithmetic.md
+      - 组合数学: Gold/combinatorics.md
+    - 动态规划:
+      - DP 入门: Gold/intro_dp.md
+      - 背包: Gold/knapsack.md
+      - 网格路径: Gold/grid_paths.md
+      - 最长上升子序列: Gold/lis.md
+      - 状压 DP: Gold/bitmask_dp.md
+      - 区间 DP: Gold/range_dp.md
+      - 数位 DP: Gold/digit_dp.md
+    - 图论:
+      - 无权最短路: Gold/unweighted_shortest_path.md
+      - 并查集: Gold/dsu.md
+      - 拓扑排序: Gold/topological_sort.md
+      - 非负权最短路: Gold/dijkstra.md
+      - 最小生成树: Gold/mst.md
+    - 数据结构:
+      - 有序集合进阶: Gold/sorted_sets.md
+      - 栈: Gold/stacks.md
+      - 滑动窗口: Gold/sliding_window.md
+      - 单点修改区间和: Gold/point_update_range_sum.md
+    - 树:
+      - 欧拉序: Gold/euler_tour.md
+      - 树形 DP 入门: Gold/dp_on_trees.md
+      - 换根 DP: Gold/all_roots_dp.md
+    - 其他专题:
+      - 哈希: Gold/hashing.md
+      - 折半搜索: Gold/meet_in_middle.md
+      - 单峰函数三分: Gold/ternary_search.md
+
+  #### USACO Platinum ####
+  - USACO Platinum:
+    - 考纲总览: Platinum/index.md
+    - 区间查询:
+      - 线段树进阶应用: Platinum/segtree_applications.md
+      - 扫描线区间查询: Platinum/sweep_line_range.md
+      - 区间修改区间查询: Platinum/range_update_range_query.md
+      - 动态开点线段树: Platinum/sparse_segtree.md
+      - 二维区间查询: Platinum/range_queries_2d.md
+      - 分治求静态区间查询: Platinum/dc_static_range.md
+      - 分块: Platinum/sqrt_decomposition.md
+    - 树:
+      - 倍增: Platinum/binary_jumping.md
+      - 启发式合并: Platinum/small_to_large.md
+      - 重链剖分: Platinum/hld.md
+      - 点分治: Platinum/centroid_decomposition.md
+      - 虚树: Platinum/virtual_tree.md
+      - Kruskal 重构树: Platinum/kruskal_reconstruction.md
+    - 几何:
+      - 几何基础: Platinum/geometry_primitives.md
+      - 扫描线: Platinum/sweep_line.md
+      - 凸包: Platinum/convex_hull.md
+      - 斜率优化: Platinum/convex_hull_trick.md
+    - 杂项:
+      - 容斥原理: Platinum/inclusion_exclusion.md
+      - 矩阵快速幂: Platinum/matrix_exponentiation.md
+      - bitset: Platinum/bitsets.md
+      - 分治优化 DP: Platinum/dc_dp.md
+      - 子集和 DP: Platinum/sos_dp.md
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+  - mdx_truly_sane_lists:
+      nested_indent: 2
+
+extra_javascript:
+  - site_extra_styles/javascripts/katex.js
+  - site_extra_styles/javascripts/tab_dropdown.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
+  - site_extra_styles/stylesheets/extra.css
+  - site_extra_styles/stylesheets/correct_bullet_point.css
