@@ -52,6 +52,36 @@ int dice = (int)(Math.random() * 6) + 1;
 - `(int)` 截断后得到 `0,1,2,3,4,5`（即 `[0, 6)`）。
 - `+ 1` 平移到 `1,2,3,4,5,6`。
 
+<div class="diagram">
+<svg viewBox="0 0 460 150" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace" font-size="12">
+  <!-- step 1 -->
+  <text x="10" y="30" fill="var(--dia-stroke-soft)">random()</text>
+  <line x1="120" y1="25" x2="300" y2="25" stroke="var(--dia-stroke)"/>
+  <line x1="120" y1="20" x2="120" y2="30" stroke="var(--dia-stroke)"/>
+  <line x1="300" y1="20" x2="300" y2="30" stroke="var(--dia-stroke)"/>
+  <text x="118" y="44" text-anchor="middle" fill="var(--dia-stroke)">0.0</text>
+  <text x="300" y="44" text-anchor="middle" fill="var(--dia-stroke-tertiary)">1.0)</text>
+  <!-- step 2 ×6 -->
+  <text x="10" y="78" fill="var(--dia-stroke-soft)">× 6</text>
+  <line x1="120" y1="73" x2="420" y2="73" stroke="var(--dia-blue)"/>
+  <line x1="120" y1="68" x2="120" y2="78" stroke="var(--dia-blue)"/>
+  <line x1="420" y1="68" x2="420" y2="78" stroke="var(--dia-blue)"/>
+  <text x="118" y="92" text-anchor="middle" fill="var(--dia-blue)">0.0</text>
+  <text x="420" y="92" text-anchor="middle" fill="var(--dia-stroke-tertiary)">6.0)</text>
+  <!-- step 3 (int) buckets -->
+  <text x="10" y="126" fill="var(--dia-stroke-soft)">(int)</text>
+  <g fill="var(--dia-accent-soft)" stroke="var(--dia-accent)">
+    <rect x="120" y="110" width="50" height="26"/><rect x="170" y="110" width="50" height="26"/><rect x="220" y="110" width="50" height="26"/>
+    <rect x="270" y="110" width="50" height="26"/><rect x="320" y="110" width="50" height="26"/><rect x="370" y="110" width="50" height="26"/>
+  </g>
+  <g text-anchor="middle" fill="var(--dia-accent)">
+    <text x="145" y="128">0</text><text x="195" y="128">1</text><text x="245" y="128">2</text>
+    <text x="295" y="128">3</text><text x="345" y="128">4</text><text x="395" y="128">5</text>
+  </g>
+</svg>
+<p class="figure-caption">乘 6 把 [0,1) 拉伸到 [0,6)，(int) 截断成 6 个等宽「桶」0–5；再 +1 即骰子点数 1–6。</p>
+</div>
+
 ## 易错提醒
 
 - `Math.pow` / `Math.sqrt` 返回 **`double`**，赋给 `int` 需 `(int)`。

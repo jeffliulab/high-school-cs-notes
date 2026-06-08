@@ -30,6 +30,30 @@ i--;   // i = 5（自减）
 
 ## 类型转换（Casting）
 
+`int` 与 `double` 之间的转换有两个方向——「拓宽」自动安全，「缩窄」需手动且会丢精度：
+
+<div class="diagram">
+<svg viewBox="0 0 440 130" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace" font-size="13">
+  <rect x="40" y="50" width="120" height="44" rx="4" fill="var(--dia-bg-card)" stroke="var(--dia-stroke)"/>
+  <text x="100" y="70" text-anchor="middle" fill="var(--dia-stroke)">int</text>
+  <text x="100" y="86" text-anchor="middle" fill="var(--dia-stroke-soft)" font-size="10">5</text>
+  <rect x="280" y="50" width="120" height="44" rx="4" fill="var(--dia-bg-card)" stroke="var(--dia-stroke)"/>
+  <text x="340" y="70" text-anchor="middle" fill="var(--dia-stroke)">double</text>
+  <text x="340" y="86" text-anchor="middle" fill="var(--dia-stroke-soft)" font-size="10">5.0</text>
+  <!-- widening arrow (top, auto) -->
+  <path d="M160,62 L280,62" fill="none" stroke="var(--dia-green)" stroke-width="2" marker-end="url(#cw)"/>
+  <text x="220" y="40" text-anchor="middle" fill="var(--dia-green)" font-size="11">拓宽 · 自动 · 安全</text>
+  <!-- narrowing arrow (bottom, manual) -->
+  <path d="M280,82 L160,82" fill="none" stroke="var(--dia-accent)" stroke-width="2" stroke-dasharray="5 3" marker-end="url(#cn)"/>
+  <text x="220" y="116" text-anchor="middle" fill="var(--dia-accent)" font-size="11">缩窄 · 需 (int) · 截断丢精度</text>
+  <defs>
+    <marker id="cw" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="var(--dia-green)"/></marker>
+    <marker id="cn" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="var(--dia-accent)"/></marker>
+  </defs>
+</svg>
+<p class="figure-caption">int → double 自动拓宽（不丢信息）；double → int 必须写 (int) 强制缩窄，小数部分被直接截断。</p>
+</div>
+
 ### 自动转换（拓宽，int → double）
 
 把 `int` 赋给 `double` 时自动、安全地转换：

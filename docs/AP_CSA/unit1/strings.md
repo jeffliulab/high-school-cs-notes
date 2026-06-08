@@ -48,6 +48,37 @@ System.out.println("x = " + (1+2)); // "x = 3"（括号先算）
 
 > **`substring(i, j)` 的长度 = `j - i`**，这是计算子串的实用公式。
 
+把索引想成字符**之间的「栅栏」**（fence post）会非常清晰——`substring(i, j)` 取的是第 `i` 道栅栏到第 `j` 道栅栏之间的字符：
+
+<div class="diagram">
+<svg viewBox="0 0 470 120" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace" font-size="14">
+  <!-- 7 chars PROGRAM -->
+  <g>
+    <rect x="50" y="40" width="50" height="40" fill="var(--dia-bg-card)" stroke="var(--dia-stroke)"/>
+    <rect x="100" y="40" width="50" height="40" fill="var(--dia-bg-card)" stroke="var(--dia-stroke)"/>
+    <rect x="150" y="40" width="50" height="40" fill="var(--dia-accent-soft)" stroke="var(--dia-accent)"/>
+    <rect x="200" y="40" width="50" height="40" fill="var(--dia-accent-soft)" stroke="var(--dia-accent)"/>
+    <rect x="250" y="40" width="50" height="40" fill="var(--dia-bg-card)" stroke="var(--dia-stroke)"/>
+    <rect x="300" y="40" width="50" height="40" fill="var(--dia-bg-card)" stroke="var(--dia-stroke)"/>
+    <rect x="350" y="40" width="50" height="40" fill="var(--dia-bg-card)" stroke="var(--dia-stroke)"/>
+  </g>
+  <g text-anchor="middle" fill="var(--dia-stroke)">
+    <text x="75" y="66">P</text><text x="125" y="66">R</text>
+    <text x="175" y="66" fill="var(--dia-accent)">O</text><text x="225" y="66" fill="var(--dia-accent)">G</text>
+    <text x="275" y="66">R</text><text x="325" y="66">A</text><text x="375" y="66">M</text>
+  </g>
+  <!-- fence indices 0..7 -->
+  <g text-anchor="middle" fill="var(--dia-stroke-soft)" font-size="11">
+    <text x="50" y="98">0</text><text x="100" y="98">1</text>
+    <text x="150" y="98" fill="var(--dia-accent)">2</text><text x="200" y="98">3</text>
+    <text x="250" y="98" fill="var(--dia-accent)">4</text><text x="300" y="98">5</text>
+    <text x="350" y="98">6</text><text x="400" y="98">7</text>
+  </g>
+  <text x="225" y="28" text-anchor="middle" fill="var(--dia-accent)" font-size="12">substring(2, 4) → "OG"</text>
+</svg>
+<p class="figure-caption">把索引看作字符之间的栅栏：substring(2,4) 取第 2 到第 4 道栅栏之间的字符 "OG"，长度 4−2=2。</p>
+</div>
+
 ## 遍历字符串
 
 ```java

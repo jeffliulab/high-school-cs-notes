@@ -28,9 +28,38 @@ int score = 95;   // 声明并初始化（推荐）
 ## 基本类型 vs 引用类型
 
 - **基本类型（primitive）**：`int`、`double`、`boolean`，变量**直接存储值**本身。
-- **引用类型（reference）**：如 `String`、数组、对象，变量存储的是**指向对象的引用（地址）**。
+- **引用类型（reference）**：如 `String`、数组、对象，变量存储的是**指向对象的引用（地址）**，对象本身另存于堆中。
 
-这一区别在后面「对象与类」「参数传递」中至关重要。
+<div class="diagram">
+<svg viewBox="0 0 460 200" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace" font-size="13">
+  <text x="120" y="22" text-anchor="middle" fill="var(--dia-stroke-soft)" font-size="12">基本类型：格子里直接放值</text>
+  <text x="340" y="22" text-anchor="middle" fill="var(--dia-stroke-soft)" font-size="12">引用类型：格子里放地址</text>
+  <line x1="230" y1="35" x2="230" y2="185" stroke="var(--dia-rule)" stroke-dasharray="4 4"/>
+  <!-- primitive -->
+  <rect x="40" y="50" width="150" height="34" fill="var(--dia-bg-card)" stroke="var(--dia-stroke)"/>
+  <text x="55" y="72" fill="var(--dia-stroke-soft)" font-size="11">age</text>
+  <text x="150" y="72" text-anchor="middle" fill="var(--dia-accent)">17</text>
+  <rect x="40" y="100" width="150" height="34" fill="var(--dia-bg-card)" stroke="var(--dia-stroke)"/>
+  <text x="55" y="122" fill="var(--dia-stroke-soft)" font-size="11">pi</text>
+  <text x="150" y="122" text-anchor="middle" fill="var(--dia-accent)">3.14</text>
+  <!-- reference -->
+  <rect x="250" y="50" width="120" height="34" fill="var(--dia-bg-card)" stroke="var(--dia-stroke)"/>
+  <text x="263" y="72" fill="var(--dia-stroke-soft)" font-size="11">s</text>
+  <circle cx="350" cy="67" r="4" fill="var(--dia-blue)"/>
+  <rect x="250" y="100" width="120" height="34" fill="var(--dia-bg-card)" stroke="var(--dia-stroke)"/>
+  <text x="263" y="122" fill="var(--dia-stroke-soft)" font-size="11">t</text>
+  <text x="340" y="122" text-anchor="middle" fill="var(--dia-stroke-tertiary)">null</text>
+  <!-- heap object -->
+  <rect x="360" y="150" width="90" height="30" rx="4" fill="var(--dia-bg-card)" stroke="var(--dia-blue)"/>
+  <text x="405" y="170" text-anchor="middle" fill="var(--dia-blue)" font-size="12">"hi"</text>
+  <path d="M350,71 C350,120 405,125 405,150" fill="none" stroke="var(--dia-blue)" marker-end="url(#vr)"/>
+  <text x="408" y="142" fill="var(--dia-stroke-soft)" font-size="10">堆中对象</text>
+  <defs><marker id="vr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="var(--dia-blue)"/></marker></defs>
+</svg>
+<p class="figure-caption">基本类型变量直接装着值；引用类型变量装的是指向堆中对象的「地址」，<code>null</code> 表示不指向任何对象。</p>
+</div>
+
+这一区别在后面「[对象与类](objects_classes.md)」「[参数传递](method_calls.md)」中至关重要：基本类型赋值是**拷贝值**，引用类型赋值是**拷贝地址**（两个变量指向同一对象）。
 
 ## int 与 double 的关键差异
 
