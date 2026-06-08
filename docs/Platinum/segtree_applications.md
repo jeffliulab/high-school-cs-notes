@@ -9,6 +9,33 @@
 
 把数组建成一棵二叉树，每个节点代表一个区间，存该区间的聚合值（和/最值）。叶子是单个元素，内部节点合并左右孩子。共 $O(n)$ 个节点。
 
+<div class="diagram">
+<svg viewBox="0 0 440 180" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace" font-size="10">
+  <!-- edges -->
+  <g stroke="var(--dia-stroke-soft)">
+    <line x1="220" y1="32" x2="120" y2="72"/><line x1="220" y1="32" x2="320" y2="72"/>
+    <line x1="120" y1="92" x2="70" y2="132"/><line x1="120" y1="92" x2="170" y2="132"/>
+    <line x1="320" y1="92" x2="270" y2="132"/><line x1="320" y1="92" x2="370" y2="132"/>
+  </g>
+  <!-- root -->
+  <rect x="180" y="18" width="80" height="26" rx="3" fill="var(--dia-blue)" fill-opacity="0.15" stroke="var(--dia-blue)"/>
+  <text x="220" y="35" text-anchor="middle" fill="var(--dia-blue)">[0,3]=15</text>
+  <!-- level 1 -->
+  <rect x="80" y="72" width="80" height="26" rx="3" fill="var(--dia-bg-card)" stroke="var(--dia-stroke)"/>
+  <text x="120" y="89" text-anchor="middle" fill="var(--dia-stroke)">[0,1]=6</text>
+  <rect x="280" y="72" width="80" height="26" rx="3" fill="var(--dia-accent-soft)" stroke="var(--dia-accent)"/>
+  <text x="320" y="89" text-anchor="middle" fill="var(--dia-accent)">[2,3]=9</text>
+  <!-- leaves -->
+  <g fill="var(--dia-bg-card)" stroke="var(--dia-stroke)">
+    <rect x="42" y="132" width="56" height="24" rx="3"/><rect x="142" y="132" width="56" height="24" rx="3"/>
+    <rect x="242" y="132" width="56" height="24" rx="3"/><rect x="342" y="132" width="56" height="24" rx="3"/>
+  </g>
+  <g text-anchor="middle" fill="var(--dia-stroke-soft)"><text x="70" y="148">[0]=2</text><text x="170" y="148">[1]=4</text><text x="270" y="148">[2]=5</text><text x="370" y="148">[3]=4</text></g>
+  <text x="220" y="174" text-anchor="middle" fill="var(--dia-stroke-soft)" font-size="9">每个内部节点 = 左右孩子之和；查询/修改沿树高 O(log n) 条路径走</text>
+</svg>
+<p class="figure-caption">线段树：叶子是原数组元素，每个内部节点存其区间的聚合值（这里是和）。查询 [2,3] 直接读高亮节点；任意区间最多拆成 O(log n) 个节点。</p>
+</div>
+
 ## 基础：单点修改 + 区间查询
 
 以**区间和**为例（节点 1 为根，区间 $[l, r]$）：

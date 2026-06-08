@@ -14,6 +14,28 @@
 
 总复杂度每次操作 $O(\sqrt n)$。
 
+<div class="diagram">
+<svg viewBox="0 0 440 120" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace" font-size="11">
+  <!-- 9 cells in 3 blocks -->
+  <g fill="var(--dia-bg-card)" stroke="var(--dia-stroke)">
+    <rect x="20" y="40" width="40" height="34"/><rect x="60" y="40" width="40" height="34"/><rect x="100" y="40" width="40" height="34"/>
+    <rect x="160" y="40" width="40" height="34"/><rect x="200" y="40" width="40" height="34"/><rect x="240" y="40" width="40" height="34"/>
+    <rect x="300" y="40" width="40" height="34"/><rect x="340" y="40" width="40" height="34"/><rect x="380" y="40" width="40" height="34"/>
+  </g>
+  <!-- block brackets -->
+  <g fill="none" stroke="var(--dia-blue)" stroke-width="1.5">
+    <rect x="17" y="37" width="126" height="40" rx="3"/><rect x="157" y="37" width="126" height="40" rx="3"/><rect x="297" y="37" width="126" height="40" rx="3"/>
+  </g>
+  <g text-anchor="middle" fill="var(--dia-blue)" font-size="10"><text x="80" y="28">块0 (整块)</text><text x="220" y="28">块1 (整块)</text><text x="360" y="28">块2</text></g>
+  <!-- partial query: cells 4..7 -->
+  <rect x="200" y="36" width="180" height="42" fill="var(--dia-accent)" fill-opacity="0.12" stroke="var(--dia-accent)" stroke-width="2"/>
+  <text x="220" y="98" text-anchor="middle" fill="var(--dia-accent)" font-size="9">零散(暴力)</text>
+  <text x="320" y="98" text-anchor="middle" fill="var(--dia-green)" font-size="9">整块(O(1))</text>
+  <text x="378" y="98" text-anchor="middle" fill="var(--dia-accent)" font-size="9">零散</text>
+</svg>
+<p class="figure-caption">分块：数组切成 √n 个块。区间查询 [4,7] 中间的整块直接用块汇总值 O(1)，两端不足一块的零散元素暴力扫，每端最多 √n 个。</p>
+</div>
+
 ```cpp
 int block;                      // 块大小 ≈ sqrt(n)
 int belong[N];                  // belong[i] = i 所在块编号

@@ -11,6 +11,31 @@
 - **重边**：连向重儿子的边；**重链**：由重边连成的一条链。
 - 每个节点到根的路径上，最多经过 $O(\log n)$ 条重链（每跳到一条新链，子树大小至少翻倍）。
 
+<div class="diagram">
+<svg viewBox="0 0 400 185" xmlns="http://www.w3.org/2000/svg" font-family="JetBrains Mono, monospace" font-size="11">
+  <!-- light edges (thin grey) -->
+  <g stroke="var(--dia-stroke-soft)" stroke-dasharray="3 2">
+    <line x1="200" y1="30" x2="120" y2="75"/><line x1="120" y1="80" x2="70" y2="125"/><line x1="200" y1="80" x2="290" y2="125"/>
+  </g>
+  <!-- heavy chains (thick colored) -->
+  <g stroke-width="4" fill="none">
+    <path d="M200,30 L200,80 L200,130 L200,170" stroke="var(--dia-accent)"/>
+    <path d="M120,75 L120,125 L120,170" stroke="var(--dia-blue)"/>
+    <path d="M290,125 L290,170" stroke="var(--dia-green)"/>
+  </g>
+  <!-- nodes -->
+  <g fill="var(--dia-bg-card)" stroke="var(--dia-stroke)">
+    <circle cx="200" cy="30" r="13"/><circle cx="200" cy="80" r="13"/><circle cx="200" cy="130" r="13"/><circle cx="200" cy="170" r="11"/>
+    <circle cx="120" cy="75" r="13"/><circle cx="120" cy="125" r="13"/><circle cx="120" cy="170" r="11"/>
+    <circle cx="70" cy="125" r="11"/><circle cx="290" cy="125" r="13"/><circle cx="290" cy="170" r="11"/>
+  </g>
+  <text x="245" y="34" fill="var(--dia-accent)" font-size="10">重链1</text>
+  <text x="60" y="70" fill="var(--dia-blue)" font-size="10">重链2</text>
+  <text x="305" y="120" fill="var(--dia-green)" font-size="10">重链3</text>
+</svg>
+<p class="figure-caption">重链剖分：粗实线是重链（连重儿子），细虚线是轻边。同一条重链的节点在 DFS 序中连续，于是树上路径被拆成 O(log n) 段连续区间，交给线段树处理。</p>
+</div>
+
 ## 两次 DFS
 
 **DFS1**：算子树大小 `sz`、父亲 `fa`、深度 `dep`、重儿子 `son`。
