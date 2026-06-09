@@ -8,8 +8,8 @@
 
   function getBase() {
     var path = window.location.pathname;
-    var match = path.match(/^(\/finance-notes\/)/);
-    return match ? match[1] : "/finance-notes/";
+    var match = path.match(/^(\/high-school-cs-notes\/)/);
+    return match ? match[1] : "/high-school-cs-notes/";
   }
 
   var currentDropdown = null;
