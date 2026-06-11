@@ -29,6 +29,7 @@ plugins:
           nav_translations:
             首页: Home
             考纲总览: Overview
+            USACO 竞赛介绍: USACO Overview
             # === AP CSA ===
             第一单元 使用对象与方法: "Unit 1: Using Objects & Methods"
             第二单元 选择与迭代: "Unit 2: Selection & Iteration"
@@ -106,6 +107,7 @@ nav:
   #### USACO Bronze ####
   - USACO Bronze:
     - 考纲总览: Bronze/index.md
+    - USACO 竞赛介绍: Bronze/usaco_intro.md
     - 入门:
       - 时间复杂度: Bronze/time_complexity.md
       - 数据结构入门: Bronze/intro_data_structures.md
