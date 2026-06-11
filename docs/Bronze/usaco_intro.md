@@ -131,23 +131,132 @@ cout << odd*(odd-1)/2 + even*(even-1)/2 << "\n";
 3. 限时模拟**往届真题**，按官方评分自评；薄弱处回到本站笔记复习。
 4. 稳过 Bronze → 冲 Silver → 逐级向上，每月一次限时模拟检验进度。
 
-## 学习资源
+## 参考网站与工具
 
-- 📘 **本站笔记**（[高中计算机笔记](https://jeffliulab.github.io/high-school-cs-notes/)）：系统中文讲解 + 配图，覆盖 Bronze→Platinum 全部模块。
-- 🧭 **[USACO Guide](https://usaco.guide)**：最成熟的英文课程，按级别/模块组织，附海量题单。
-- 🗂️ **[官方往届题](http://www.usaco.org/index.php?page=contests)**：历年真题与数据，限时模拟必备。
-- ⚔️ **Codeforces / AtCoder**：日常刷题，练手速与思维广度。
+**系统课程 / 教材**
 
-## 如何开始
+| 资源 | 说明 |
+| --- | --- |
+| 📘 [本站笔记（高中计算机笔记）](https://jeffliulab.github.io/high-school-cs-notes/) | 系统**中文**讲解 + 配图，覆盖 Bronze→Platinum 全部模块 |
+| 🧭 [USACO Guide](https://usaco.guide) | 最权威的英文路线（Benjamin Qi 等顶尖选手编写），按级别/模块组织，每模块附分级题单 |
+| 📖 [An Introduction to USACO](https://darrenyao.com/usacobook/cpp.pdf)（Darren Yao） | 免费 PDF，Bronze/Silver 入门，C++ 与 Java 双版本 |
+| 📚 [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf)（Antti Laaksonen） | 免费经典算法竞赛教材，与 CSES 题库配套 |
+
+**刷题平台**
+
+| 平台 | 用途 |
+| --- | --- |
+| 🗂️ [USACO 官方往届题](http://www.usaco.org/index.php?page=contests) | **实战真题**与官方数据，限时模拟的核心 |
+| 🧩 [CSES Problem Set](https://cses.fi/problemset/) | 300 道**标准算法题**，系统覆盖排序/DP/图/区间/树，模板必刷 |
+| ⚔️ [Codeforces](https://codeforces.com/problemset) | 海量**分级**题 + 高频比赛，按 rating 精准选题 |
+| 🎯 [AtCoder](https://atcoder.jp/)（含 [DP 专题赛](https://atcoder.jp/contests/dp)） | 题面干净、质量高；ABC 适合进阶，Educational DP Contest 练 DP 极佳 |
+| 🀄 [洛谷 Luogu](https://www.luogu.com.cn/) | 中文平台，题解丰富，含 USACO 题搬运与题单 |
+
+## 📘 自学操作指南：从零到白金
+
+下面是一份可执行的「零基础 → Platinum」路线。**核心方法贯穿每个阶段**，再按级别给出学什么、在哪刷、刷多少、怎样算「过关」。
+
+### 贯穿始终的学习方法
+
+> **学一个模块 → 立刻做配套题 → 限时模拟整套真题 → upsolve 订正**，循环推进。
+
+- **upsolving（赛后订正）最重要**：模拟/比赛后，把没做出的题**想透、看题解、合上题解自己重写一遍**。真正的提升发生在这里。
+- **看题解的正确姿势**：先独立卡 **30–60 分钟**；想不出再看题解；看懂后**关掉题解默写实现**。秒抄题解等于没学。
+- **限时训练**：定期模拟真实赛制（4 小时 3 题），练时间分配与心态——平时会做 ≠ 赛场能做出来。
+- **每题复盘**：卡在哪？读题、想算法、写实现、还是复杂度？针对性补。
+
+### 难度坐标：USACO 级别 ↔ Codeforces 评分
+
+借助 Codeforces 的分级题库精准选题（仅供参考，两者风格不同）：
+
+| USACO 级别 | 选手大致 CF 分 | 对应 CF 题目难度 | CF 大致位置 |
+| --- | --- | --- | --- |
+| **Bronze** | < 1300 | 900–1500 | Div2 A–C |
+| **Silver** | 1200–1500 | 1200–1900 | Div2 C–E |
+| **Gold** | 1500–1800 | 1500–2200 | Div1 A–C |
+| **Platinum** | 1800+ | 1900+ | Div1 C+ |
+
+> CF 偏重「短时间多题、手速」，USACO 偏重「长时间深思」。有人 USACO 强但 CF 弱，反之亦然——别被 rating 绑架，以**能否限时 AC 该级别真题**为准。
+
+### 阶段 0 · 打基础（语言与 STL）
+
+- **目标**：用 **C++** 流畅写循环/数组/函数/递归，熟练处理输入输出。
+- **学什么**：基本语法、`vector`/`string`、`sort`、`set`/`map`、`pair`、结构体（见 [数据结构入门](intro_data_structures.md)）。
+- **在哪练**：CSES「Introductory Problems」(19 题) + CF 800–1000 分题 + 洛谷入门。
+- **刷多少**：约 **30–50** 道简单题建立手感。
+- **耗时**：零基础约 **1–2 个月**（视投入）。
+- **过关标志**：能独立写出排序、前缀和、简单模拟，不再卡语法。
+
+### 阶段 1 · Bronze 铜级
+
+- **学什么**：[时间复杂度](time_complexity.md)、[完全搜索](complete_search_basic.md)、[模拟](simulation.md)、[排序](intro_sorting.md)与[集合映射](sets_maps.md)、[贪心](intro_greedy.md)、[图论入门](intro_graphs.md)。
+- **在哪刷**：USACO Guide **Bronze 模块题单** + **全部往届 Bronze 真题**。
+- **刷多少**：Guide Bronze 题单 + 往届 Bronze 约 **30–50 套题**，累计 **60–80 题**。
+- **限时**：每周 **1–2 套**往届 Bronze 模拟。
+- **过关标志**：往届 Bronze 限时能稳定 **AC 2–3 题** / 达到晋级线。
+- **耗时**：有语言基础约 **1–3 个月**。
+
+### 阶段 2 · Silver 银级
+
+- **学什么**：[前缀和](../Silver/prefix_sums.md)、[双指针](../Silver/two_pointers.md)、[二分（含二分答案）](../Silver/binary_search.md)、[DFS/BFS](../Silver/graph_traversal.md)/[洪水填充](../Silver/flood_fill.md)、[排序贪心](../Silver/greedy_sorting.md)、[自定义比较器](../Silver/custom_comparators.md)。
+- **在哪刷**：USACO Guide Silver + 往届 Silver + **CSES「Sorting and Searching」**。
+- **刷多少**：Guide Silver 题单 + 往届 Silver ~40 + CSES 相关 ~30，累计 **80–120 题**；CF 主攻 1200–1700 分。
+- **过关标志**：往届 Silver 限时能过 **2/3 题**。
+- **耗时**：约 **2–4 个月**。
+
+### 阶段 3 · Gold 金级
+
+- **学什么**：[动态规划](../Gold/intro_dp.md)（[背包](../Gold/knapsack.md)/[LIS](../Gold/lis.md)/[区间](../Gold/range_dp.md)/[状压](../Gold/bitmask_dp.md)）、[最短路](../Gold/dijkstra.md)/[MST](../Gold/mst.md)/[拓扑](../Gold/topological_sort.md)、[并查集](../Gold/dsu.md)、[树状数组](../Gold/point_update_range_sum.md)、[树形 DP](../Gold/dp_on_trees.md)。
+- **在哪刷**：USACO Guide Gold + 往届 Gold + **CSES「Dynamic Programming」(全 19 题) / 「Graph」/「Tree」/「Range Queries」** + **AtCoder Educational DP Contest**。
+- **刷多少**：Guide Gold + 往届 Gold ~40 + CSES DP/图/树 ~50，累计 **120–180 题**；CF 主攻 1500–2000 分（Div2 D/E）。
+- **过关标志**：能独立设计中等难度的 DP 与图论解法并限时实现。
+- **耗时**：约 **4–8 个月**。
+
+### 阶段 4 · Platinum 白金级
+
+- **学什么**：[线段树进阶](../Platinum/segtree_applications.md)、[重链剖分](../Platinum/hld.md)、[点分治](../Platinum/centroid_decomposition.md)、[倍增](../Platinum/binary_jumping.md)、[计算几何](../Platinum/geometry_primitives.md)/[凸包](../Platinum/convex_hull.md)、高级 DP（[数位](../Gold/digit_dp.md)/[SOS](../Platinum/sos_dp.md)/[分治优化](../Platinum/dc_dp.md)）。
+- **在哪刷**：USACO Guide Platinum + **全部往届 Platinum** + CF **Div1** + 各专题题单。
+- **刷多少**：Guide Platinum + 往届 Platinum 全部 + 大量 CF 1900+，**持续刷，数百题量级**。
+- **过关标志**：能稳定打进白金，向训练营 / IOI 方向冲刺。
+- **耗时**：通常 **1 年以上**，因人而异。
+
+### 路线总览
+
+| 级别 | 核心模块 | 主刷平台 | 建议累计题量 | 目标 CF 分 | 参考周期 |
+| --- | --- | --- | --- | --- | --- |
+| 阶段 0 | 语言 + STL | CSES 入门 / CF 800+ | 30–50 | — | 1–2 月 |
+| Bronze | 暴力 / 模拟 / 贪心 | USACO 往届 + Guide | 60–80 | <1300 | 1–3 月 |
+| Silver | 二分 / 前缀和 / DFS·BFS | + CSES Sorting | 80–120 | 1200–1500 | 2–4 月 |
+| Gold | DP / 图论 / 数据结构 | + CSES DP·图 / AtCoder DP | 120–180 | 1500–1800 | 4–8 月 |
+| Platinum | 线段树 / 树上 / 几何 | + CF Div1 | 数百+ | 1800+ | 1 年+ |
+
+### 关于「刷多少题」的真相
+
+- **质量 > 数量**：一道题想透 + 订正 + 举一反三，胜过十道看一眼。
+- **总量级参考**：从零到 **Gold** 通常需解 **300–500+ 题**；到 **Platinum** 往往 **1000+ 题**、跨 1–2 年。
+- 这些数字只是**参照**——真正的标准不是凑够数量，而是**每个模块都真正掌握、能限时 AC 对应级别真题**。
+- 个体差异很大：投入时间、数学基础、有无教练 / 同伴都会显著影响进度。
+
+### 常见误区
+
+- ❌ 只看不写、看到题解就秒抄 → ✅ 先独立想，看完关掉默写。
+- ❌ 基础不牢就跳级硬冲 Gold → ✅ 逐级打牢，欠下的债迟早要还。
+- ❌ 只刷不复盘 → ✅ 每题问自己「错在读题/算法/实现/复杂度哪一环」。
+- ❌ 从不限时、只慢慢做 → ✅ 定期 4 小时模拟，练时间分配与心态。
+- ❌ 一题死磕一整天不看题解 → ✅ 卡 30–60 分钟后该看就看，效率优先。
+
+## 如何报名参赛
 
 1. 到 [usaco.org](http://www.usaco.org) 注册账号（免费）。
-2. 下个赛季任选一场比赛，从 **Bronze** 开始。
-3. 赛前用往届 Bronze 题**限时模拟** 2–3 套，熟悉读题与提交流程。
-4. 别等「准备好」——先打一场，你会立刻知道差距在哪。
+2. 赛季：每年 **12 月 / 1 月 / 2 月 + US Open**，在时间窗口内**自选 4 小时**开赛。
+3. 所有人从 **Bronze** 开始；达标当场晋级。
+4. 别等「准备好」——先打一场做诊断，目标和短板会立刻清晰。
 
 ## 小结
 
 - USACO 是**免费在线**的中学算法竞赛，**Bronze→Silver→Gold→Platinum** 逐级晋升。
 - 各级别考点清晰：暴力 → 经典技巧 → DP/图论 → 高级数据结构。
 - 核心功底：**复杂度分析 + 算法选择 + 干净实现**。
-- 路线：学 C++ → 按模块系统学 → 限时刷真题 → 逐级进阶；善用部分分，先打一场再说。
+- 自学闭环：**学模块 → 立刻刷题 → 限时模拟 → upsolve 订正**，配合 USACO Guide / CSES / Codeforces 逐级进阶。
+- 善用部分分，**先打一场再说**——质量 > 数量，坚持比题量更重要。
+
