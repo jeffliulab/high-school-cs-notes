@@ -51,13 +51,3 @@ hide:
     [进入 →](Platinum/){ .md-button }
 
 </div>
-
----
-
-## 友情链接
-
-[AI 学习笔记 →](https://jeffliulab.github.io/ai-notes/){ .md-button }
-[具身智能与机器人 →](https://jeffliulab.github.io/embodied-notes/){ .md-button }
-[神经科学 →](https://jeffliulab.github.io/neuro-sci-notes/){ .md-button }
-[AI 行业研究 →](https://jeffliulab.github.io/ai-industry-research/){ .md-button }
-[金融学习笔记 →](https://jeffliulab.github.io/finance-notes/){ .md-button }
