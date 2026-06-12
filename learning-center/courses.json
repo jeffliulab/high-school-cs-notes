@@ -1,0 +1,977 @@
+{
+  "schemaVersion": 1,
+  "title": "高中计算机笔记",
+  "title_en": "High School CS Notes",
+  "author": "Jeff Liu",
+  "sourceRepo": "jeffliulab/high-school-cs-notes",
+  "sourceSite": "https://jeffliulab.github.io/high-school-cs-notes/",
+  "contentRoot": "docs",
+  "defaultLang": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "hasEnglishContent": false,
+  "conventions": "See learning-center/INTEGRATION.md",
+  "courses": [
+    {
+      "id": "ap-csa",
+      "title": "AP CSA",
+      "title_en": "AP CSA",
+      "kind": "exam-prep",
+      "supportsProblems": false,
+      "overview": "docs/AP_CSA/index.md",
+      "lessons": [],
+      "sections": [
+        {
+          "id": "unit1",
+          "title": "第一单元 使用对象与方法",
+          "title_en": "Unit 1: Using Objects & Methods",
+          "overview": "docs/AP_CSA/unit1/index.md",
+          "lessons": [
+            {
+              "id": "software_engineering",
+              "title": "程序与软件工程导论",
+              "title_en": "程序与软件工程导论",
+              "content": "docs/AP_CSA/unit1/software_engineering.md"
+            },
+            {
+              "id": "variables_types",
+              "title": "变量与基本数据类型",
+              "title_en": "变量与基本数据类型",
+              "content": "docs/AP_CSA/unit1/variables_types.md"
+            },
+            {
+              "id": "expressions_assignment",
+              "title": "表达式与赋值",
+              "title_en": "表达式与赋值",
+              "content": "docs/AP_CSA/unit1/expressions_assignment.md"
+            },
+            {
+              "id": "compound_casting",
+              "title": "复合赋值与类型转换",
+              "title_en": "复合赋值与类型转换",
+              "content": "docs/AP_CSA/unit1/compound_casting.md"
+            },
+            {
+              "id": "objects_classes",
+              "title": "对象与类的概念",
+              "title_en": "对象与类的概念",
+              "content": "docs/AP_CSA/unit1/objects_classes.md"
+            },
+            {
+              "id": "method_calls",
+              "title": "方法调用",
+              "title_en": "方法调用",
+              "content": "docs/AP_CSA/unit1/method_calls.md"
+            },
+            {
+              "id": "return_values",
+              "title": "带返回值的方法",
+              "title_en": "带返回值的方法",
+              "content": "docs/AP_CSA/unit1/return_values.md"
+            },
+            {
+              "id": "strings",
+              "title": "字符串对象与方法",
+              "title_en": "字符串对象与方法",
+              "content": "docs/AP_CSA/unit1/strings.md"
+            },
+            {
+              "id": "wrapper_classes",
+              "title": "包装类",
+              "title_en": "包装类",
+              "content": "docs/AP_CSA/unit1/wrapper_classes.md"
+            },
+            {
+              "id": "math_class",
+              "title": "Math 类",
+              "title_en": "Math 类",
+              "content": "docs/AP_CSA/unit1/math_class.md"
+            }
+          ]
+        },
+        {
+          "id": "unit2",
+          "title": "第二单元 选择与迭代",
+          "title_en": "Unit 2: Selection & Iteration",
+          "overview": "docs/AP_CSA/unit2/index.md",
+          "lessons": [
+            {
+              "id": "boolean_expressions",
+              "title": "布尔表达式与关系运算",
+              "title_en": "布尔表达式与关系运算",
+              "content": "docs/AP_CSA/unit2/boolean_expressions.md"
+            },
+            {
+              "id": "if_statements",
+              "title": "if 与 if-else 语句",
+              "title_en": "if 与 if-else 语句",
+              "content": "docs/AP_CSA/unit2/if_statements.md"
+            },
+            {
+              "id": "logical_operators",
+              "title": "逻辑运算符与德摩根定律",
+              "title_en": "逻辑运算符与德摩根定律",
+              "content": "docs/AP_CSA/unit2/logical_operators.md"
+            },
+            {
+              "id": "nested_conditionals",
+              "title": "嵌套条件与多分支",
+              "title_en": "嵌套条件与多分支",
+              "content": "docs/AP_CSA/unit2/nested_conditionals.md"
+            },
+            {
+              "id": "while_loops",
+              "title": "while 循环",
+              "title_en": "while 循环",
+              "content": "docs/AP_CSA/unit2/while_loops.md"
+            },
+            {
+              "id": "for_loops",
+              "title": "for 循环",
+              "title_en": "for 循环",
+              "content": "docs/AP_CSA/unit2/for_loops.md"
+            },
+            {
+              "id": "nested_loops",
+              "title": "嵌套循环",
+              "title_en": "嵌套循环",
+              "content": "docs/AP_CSA/unit2/nested_loops.md"
+            },
+            {
+              "id": "informal_runtime",
+              "title": "算法与非正式运行时分析",
+              "title_en": "算法与非正式运行时分析",
+              "content": "docs/AP_CSA/unit2/informal_runtime.md"
+            }
+          ]
+        },
+        {
+          "id": "unit3",
+          "title": "第三单元 类的创建",
+          "title_en": "Unit 3: Class Creation",
+          "overview": "docs/AP_CSA/unit3/index.md",
+          "lessons": [
+            {
+              "id": "class_anatomy",
+              "title": "类的结构",
+              "title_en": "类的结构",
+              "content": "docs/AP_CSA/unit3/class_anatomy.md"
+            },
+            {
+              "id": "constructors",
+              "title": "构造方法与 new 运算符",
+              "title_en": "构造方法与 new 运算符",
+              "content": "docs/AP_CSA/unit3/constructors.md"
+            },
+            {
+              "id": "accessor_mutator",
+              "title": "访问器与修改器方法",
+              "title_en": "访问器与修改器方法",
+              "content": "docs/AP_CSA/unit3/accessor_mutator.md"
+            },
+            {
+              "id": "this_parameters",
+              "title": "this 关键字与参数传递",
+              "title_en": "this 关键字与参数传递",
+              "content": "docs/AP_CSA/unit3/this_parameters.md"
+            },
+            {
+              "id": "static_members",
+              "title": "静态变量与静态方法",
+              "title_en": "静态变量与静态方法",
+              "content": "docs/AP_CSA/unit3/static_members.md"
+            },
+            {
+              "id": "scope_access",
+              "title": "作用域与访问控制",
+              "title_en": "作用域与访问控制",
+              "content": "docs/AP_CSA/unit3/scope_access.md"
+            },
+            {
+              "id": "encapsulation_javadoc",
+              "title": "封装与 javadoc 设计",
+              "title_en": "封装与 javadoc 设计",
+              "content": "docs/AP_CSA/unit3/encapsulation_javadoc.md"
+            }
+          ]
+        },
+        {
+          "id": "unit4",
+          "title": "第四单元 数据集合",
+          "title_en": "Unit 4: Data Collections",
+          "overview": "docs/AP_CSA/unit4/index.md",
+          "lessons": [
+            {
+              "id": "arrays",
+              "title": "一维数组",
+              "title_en": "一维数组",
+              "content": "docs/AP_CSA/unit4/arrays.md"
+            },
+            {
+              "id": "array_traversal",
+              "title": "数组遍历与 for-each",
+              "title_en": "数组遍历与 for-each",
+              "content": "docs/AP_CSA/unit4/array_traversal.md"
+            },
+            {
+              "id": "array_algorithms",
+              "title": "数组标准算法",
+              "title_en": "数组标准算法",
+              "content": "docs/AP_CSA/unit4/array_algorithms.md"
+            },
+            {
+              "id": "arraylist",
+              "title": "ArrayList",
+              "title_en": "ArrayList",
+              "content": "docs/AP_CSA/unit4/arraylist.md"
+            },
+            {
+              "id": "arraylist_algorithms",
+              "title": "ArrayList 标准算法",
+              "title_en": "ArrayList 标准算法",
+              "content": "docs/AP_CSA/unit4/arraylist_algorithms.md"
+            },
+            {
+              "id": "array_2d",
+              "title": "二维数组",
+              "title_en": "二维数组",
+              "content": "docs/AP_CSA/unit4/array_2d.md"
+            },
+            {
+              "id": "array_2d_traversal",
+              "title": "二维数组遍历",
+              "title_en": "二维数组遍历",
+              "content": "docs/AP_CSA/unit4/array_2d_traversal.md"
+            },
+            {
+              "id": "text_files_scanner",
+              "title": "文本文件与 Scanner",
+              "title_en": "文本文件与 Scanner",
+              "content": "docs/AP_CSA/unit4/text_files_scanner.md"
+            },
+            {
+              "id": "searching",
+              "title": "顺序查找与二分查找",
+              "title_en": "顺序查找与二分查找",
+              "content": "docs/AP_CSA/unit4/searching.md"
+            },
+            {
+              "id": "sorting",
+              "title": "排序算法",
+              "title_en": "排序算法",
+              "content": "docs/AP_CSA/unit4/sorting.md"
+            },
+            {
+              "id": "recursion",
+              "title": "递归",
+              "title_en": "递归",
+              "content": "docs/AP_CSA/unit4/recursion.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "usaco-bronze",
+      "title": "USACO Bronze",
+      "title_en": "USACO Bronze",
+      "kind": "competition",
+      "supportsProblems": true,
+      "overview": "docs/Bronze/index.md",
+      "lessons": [
+        {
+          "id": "usaco_intro",
+          "title": "USACO 竞赛介绍",
+          "title_en": "USACO Overview",
+          "content": "docs/Bronze/usaco_intro.md",
+          "problems": []
+        }
+      ],
+      "sections": [
+        {
+          "id": "Bronze",
+          "title": "入门",
+          "title_en": "Getting Started",
+          "overview": null,
+          "lessons": [
+            {
+              "id": "time_complexity",
+              "title": "时间复杂度",
+              "title_en": "时间复杂度",
+              "content": "docs/Bronze/time_complexity.md",
+              "problems": []
+            },
+            {
+              "id": "intro_data_structures",
+              "title": "数据结构入门",
+              "title_en": "数据结构入门",
+              "content": "docs/Bronze/intro_data_structures.md",
+              "problems": []
+            },
+            {
+              "id": "simulation",
+              "title": "模拟",
+              "title_en": "模拟",
+              "content": "docs/Bronze/simulation.md",
+              "problems": []
+            }
+          ]
+        },
+        {
+          "id": "Bronze",
+          "title": "完全搜索",
+          "title_en": "Complete Search",
+          "overview": null,
+          "lessons": [
+            {
+              "id": "complete_search_basic",
+              "title": "基础完全搜索",
+              "title_en": "基础完全搜索",
+              "content": "docs/Bronze/complete_search_basic.md",
+              "problems": []
+            },
+            {
+              "id": "complete_search_recursion",
+              "title": "递归完全搜索",
+              "title_en": "递归完全搜索",
+              "content": "docs/Bronze/complete_search_recursion.md",
+              "problems": []
+            }
+          ]
+        },
+        {
+          "id": "Bronze",
+          "title": "排序与集合",
+          "title_en": "Sorting & Sets",
+          "overview": null,
+          "lessons": [
+            {
+              "id": "intro_sorting",
+              "title": "排序入门",
+              "title_en": "排序入门",
+              "content": "docs/Bronze/intro_sorting.md",
+              "problems": []
+            },
+            {
+              "id": "sets_maps",
+              "title": "集合与映射",
+              "title_en": "集合与映射",
+              "content": "docs/Bronze/sets_maps.md",
+              "problems": []
+            }
+          ]
+        },
+        {
+          "id": "Bronze",
+          "title": "进阶专题",
+          "title_en": "Additional Topics",
+          "overview": null,
+          "lessons": [
+            {
+              "id": "casework",
+              "title": "分类讨论",
+              "title_en": "分类讨论",
+              "content": "docs/Bronze/casework.md",
+              "problems": []
+            },
+            {
+              "id": "intro_greedy",
+              "title": "贪心入门",
+              "title_en": "贪心入门",
+              "content": "docs/Bronze/intro_greedy.md",
+              "problems": []
+            },
+            {
+              "id": "intro_graphs",
+              "title": "图论入门",
+              "title_en": "图论入门",
+              "content": "docs/Bronze/intro_graphs.md",
+              "problems": []
+            },
+            {
+              "id": "rectangle_geometry",
+              "title": "矩形几何",
+              "title_en": "矩形几何",
+              "content": "docs/Bronze/rectangle_geometry.md",
+              "problems": []
+            },
+            {
+              "id": "ad_hoc",
+              "title": "Ad Hoc 杂题",
+              "title_en": "Ad Hoc 杂题",
+              "content": "docs/Bronze/ad_hoc.md",
+              "problems": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "usaco-silver",
+      "title": "USACO Silver",
+      "title_en": "USACO Silver",
+      "kind": "competition",
+      "supportsProblems": true,
+      "overview": "docs/Silver/index.md",
+      "lessons": [],
+      "sections": [
+        {
+          "id": "Silver",
+          "title": "前缀和",
+          "title_en": "Prefix Sums",
+          "overview": null,
+          "lessons": [
+            {
+              "id": "prefix_sums",
+              "title": "前缀和入门",
+              "title_en": "前缀和入门",
+              "content": "docs/Silver/prefix_sums.md",
+              "problems": []
+            },
+            {
+              "id": "prefix_sums_advanced",
+              "title": "前缀和进阶",
+              "title_en": "前缀和进阶",
+              "content": "docs/Silver/prefix_sums_advanced.md",
+              "problems": []
+            }
+          ]
+        },
+        {
+          "id": "Silver",
+          "title": "排序与查找",
+          "title_en": "Sorting & Searching",
+          "overview": null,
+          "lessons": [
+            {
+              "id": "two_pointers",
+              "title": "双指针",
+              "title_en": "双指针",
+              "content": "docs/Silver/two_pointers.md",
+              "problems": []
+            },
+            {
+              "id": "binary_search_sorted",
+              "title": "有序数组二分",
+              "title_en": "有序数组二分",
+              "content": "docs/Silver/binary_search_sorted.md",
+              "problems": []
+            },
+            {
+              "id": "binary_search",
+              "title": "二分答案",
+              "title_en": "二分答案",
+              "content": "docs/Silver/binary_search.md",
+              "problems": []
+            },
+            {
+              "id": "custom_comparators",
+              "title": "自定义比较器与坐标压缩",
+              "title_en": "自定义比较器与坐标压缩",
+              "content": "docs/Silver/custom_comparators.md",
+              "problems": []
+            },
+            {
+              "id": "greedy_sorting",
+              "title": "排序贪心",
+              "title_en": "排序贪心",
+              "content": "docs/Silver/greedy_sorting.md",
+              "problems": []
+            },
+            {
+              "id": "priority_queues",
+              "title": "优先队列",
+              "title_en": "优先队列",
+              "content": "docs/Silver/priority_queues.md",
+              "problems": []
+            }
+          ]
+        },
+        {
+          "id": "Silver",
+          "title": "图论",
+          "title_en": "Graphs",
+          "overview": null,
+          "lessons": [
+            {
+              "id": "graph_traversal",
+              "title": "图的遍历",
+              "title_en": "图的遍历",
+              "content": "docs/Silver/graph_traversal.md",
+              "problems": []
+            },
+            {
+              "id": "flood_fill",
+              "title": "洪水填充",
+              "title_en": "洪水填充",
+              "content": "docs/Silver/flood_fill.md",
+              "problems": []
+            },
+            {
+              "id": "intro_trees",
+              "title": "树算法入门",
+              "title_en": "树算法入门",
+              "content": "docs/Silver/intro_trees.md",
+              "problems": []
+            },
+            {
+              "id": "functional_graphs",
+              "title": "函数图",
+              "title_en": "函数图",
+              "content": "docs/Silver/functional_graphs.md",
+              "problems": []
+            }
+          ]
+        },
+        {
+          "id": "Silver",
+          "title": "其他专题",
+          "title_en": "Other Topics",
+          "overview": null,
+          "lessons": [
+            {
+              "id": "bitwise",
+              "title": "位运算入门",
+              "title_en": "位运算入门",
+              "content": "docs/Silver/bitwise.md",
+              "problems": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "usaco-gold",
+      "title": "USACO Gold",
+      "title_en": "USACO Gold",
+      "kind": "competition",
+      "supportsProblems": true,
+      "overview": "docs/Gold/index.md",
+      "lessons": [],
+      "sections": [
+        {
+          "id": "Gold",
+          "title": "数学",
+          "title_en": "Math",
+          "overview": null,
+          "lessons": [
+            {
+              "id": "divisibility",
+              "title": "整除",
+              "title_en": "整除",
+              "content": "docs/Gold/divisibility.md",
+              "problems": []
+            },
+            {
+              "id": "modular_arithmetic",
+              "title": "模运算",
+              "title_en": "模运算",
+              "content": "docs/Gold/modular_arithmetic.md",
+              "problems": []
+            },
+            {
+              "id": "combinatorics",
+              "title": "组合数学",
+              "title_en": "组合数学",
+              "content": "docs/Gold/combinatorics.md",
+              "problems": []
+            }
+          ]
+        },
+        {
+          "id": "Gold",
+          "title": "动态规划",
+          "title_en": "Dynamic Programming",
+          "overview": null,
+          "lessons": [
+            {
+              "id": "intro_dp",
+              "title": "DP 入门",
+              "title_en": "DP 入门",
+              "content": "docs/Gold/intro_dp.md",
+              "problems": []
+            },
+            {
+              "id": "knapsack",
+              "title": "背包",
+              "title_en": "背包",
+              "content": "docs/Gold/knapsack.md",
+              "problems": []
+            },
+            {
+              "id": "grid_paths",
+              "title": "网格路径",
+              "title_en": "网格路径",
+              "content": "docs/Gold/grid_paths.md",
+              "problems": []
+            },
+            {
+              "id": "lis",
+              "title": "最长上升子序列",
+              "title_en": "最长上升子序列",
+              "content": "docs/Gold/lis.md",
+              "problems": []
+            },
+            {
+              "id": "bitmask_dp",
+              "title": "状压 DP",
+              "title_en": "状压 DP",
+              "content": "docs/Gold/bitmask_dp.md",
+              "problems": []
+            },
+            {
+              "id": "range_dp",
+              "title": "区间 DP",
+              "title_en": "区间 DP",
+              "content": "docs/Gold/range_dp.md",
+              "problems": []
+            },
+            {
+              "id": "digit_dp",
+              "title": "数位 DP",
+              "title_en": "数位 DP",
+              "content": "docs/Gold/digit_dp.md",
+              "problems": []
+            }
+          ]
+        },
+        {
+          "id": "Gold",
+          "title": "图论",
+          "title_en": "Graphs",
+          "overview": null,
+          "lessons": [
+            {
+              "id": "unweighted_shortest_path",
+              "title": "无权最短路",
+              "title_en": "无权最短路",
+              "content": "docs/Gold/unweighted_shortest_path.md",
+              "problems": []
+            },
+            {
+              "id": "dsu",
+              "title": "并查集",
+              "title_en": "并查集",
+              "content": "docs/Gold/dsu.md",
+              "problems": []
+            },
+            {
+              "id": "topological_sort",
+              "title": "拓扑排序",
+              "title_en": "拓扑排序",
+              "content": "docs/Gold/topological_sort.md",
+              "problems": []
+            },
+            {
+              "id": "dijkstra",
+              "title": "非负权最短路",
+              "title_en": "非负权最短路",
+              "content": "docs/Gold/dijkstra.md",
+              "problems": []
+            },
+            {
+              "id": "mst",
+              "title": "最小生成树",
+              "title_en": "最小生成树",
+              "content": "docs/Gold/mst.md",
+              "problems": []
+            }
+          ]
+        },
+        {
+          "id": "Gold",
+          "title": "数据结构",
+          "title_en": "Data Structures",
+          "overview": null,
+          "lessons": [
+            {
+              "id": "sorted_sets",
+              "title": "有序集合进阶",
+              "title_en": "有序集合进阶",
+              "content": "docs/Gold/sorted_sets.md",
+              "problems": []
+            },
+            {
+              "id": "stacks",
+              "title": "栈",
+              "title_en": "栈",
+              "content": "docs/Gold/stacks.md",
+              "problems": []
+            },
+            {
+              "id": "sliding_window",
+              "title": "滑动窗口",
+              "title_en": "滑动窗口",
+              "content": "docs/Gold/sliding_window.md",
+              "problems": []
+            },
+            {
+              "id": "point_update_range_sum",
+              "title": "单点修改区间和",
+              "title_en": "单点修改区间和",
+              "content": "docs/Gold/point_update_range_sum.md",
+              "problems": []
+            }
+          ]
+        },
+        {
+          "id": "Gold",
+          "title": "树",
+          "title_en": "Trees",
+          "overview": null,
+          "lessons": [
+            {
+              "id": "euler_tour",
+              "title": "欧拉序",
+              "title_en": "欧拉序",
+              "content": "docs/Gold/euler_tour.md",
+              "problems": []
+            },
+            {
+              "id": "dp_on_trees",
+              "title": "树形 DP 入门",
+              "title_en": "树形 DP 入门",
+              "content": "docs/Gold/dp_on_trees.md",
+              "problems": []
+            },
+            {
+              "id": "all_roots_dp",
+              "title": "换根 DP",
+              "title_en": "换根 DP",
+              "content": "docs/Gold/all_roots_dp.md",
+              "problems": []
+            }
+          ]
+        },
+        {
+          "id": "Gold",
+          "title": "其他专题",
+          "title_en": "Other Topics",
+          "overview": null,
+          "lessons": [
+            {
+              "id": "hashing",
+              "title": "哈希",
+              "title_en": "哈希",
+              "content": "docs/Gold/hashing.md",
+              "problems": []
+            },
+            {
+              "id": "meet_in_middle",
+              "title": "折半搜索",
+              "title_en": "折半搜索",
+              "content": "docs/Gold/meet_in_middle.md",
+              "problems": []
+            },
+            {
+              "id": "ternary_search",
+              "title": "单峰函数三分",
+              "title_en": "单峰函数三分",
+              "content": "docs/Gold/ternary_search.md",
+              "problems": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "usaco-platinum",
+      "title": "USACO Platinum",
+      "title_en": "USACO Platinum",
+      "kind": "competition",
+      "supportsProblems": true,
+      "overview": "docs/Platinum/index.md",
+      "lessons": [],
+      "sections": [
+        {
+          "id": "Platinum",
+          "title": "区间查询",
+          "title_en": "Range Queries",
+          "overview": null,
+          "lessons": [
+            {
+              "id": "segtree_applications",
+              "title": "线段树进阶应用",
+              "title_en": "线段树进阶应用",
+              "content": "docs/Platinum/segtree_applications.md",
+              "problems": []
+            },
+            {
+              "id": "sweep_line_range",
+              "title": "扫描线区间查询",
+              "title_en": "扫描线区间查询",
+              "content": "docs/Platinum/sweep_line_range.md",
+              "problems": []
+            },
+            {
+              "id": "range_update_range_query",
+              "title": "区间修改区间查询",
+              "title_en": "区间修改区间查询",
+              "content": "docs/Platinum/range_update_range_query.md",
+              "problems": []
+            },
+            {
+              "id": "sparse_segtree",
+              "title": "动态开点线段树",
+              "title_en": "动态开点线段树",
+              "content": "docs/Platinum/sparse_segtree.md",
+              "problems": []
+            },
+            {
+              "id": "range_queries_2d",
+              "title": "二维区间查询",
+              "title_en": "二维区间查询",
+              "content": "docs/Platinum/range_queries_2d.md",
+              "problems": []
+            },
+            {
+              "id": "dc_static_range",
+              "title": "分治求静态区间查询",
+              "title_en": "分治求静态区间查询",
+              "content": "docs/Platinum/dc_static_range.md",
+              "problems": []
+            },
+            {
+              "id": "sqrt_decomposition",
+              "title": "分块",
+              "title_en": "分块",
+              "content": "docs/Platinum/sqrt_decomposition.md",
+              "problems": []
+            }
+          ]
+        },
+        {
+          "id": "Platinum",
+          "title": "树",
+          "title_en": "Trees",
+          "overview": null,
+          "lessons": [
+            {
+              "id": "binary_jumping",
+              "title": "倍增",
+              "title_en": "倍增",
+              "content": "docs/Platinum/binary_jumping.md",
+              "problems": []
+            },
+            {
+              "id": "small_to_large",
+              "title": "启发式合并",
+              "title_en": "启发式合并",
+              "content": "docs/Platinum/small_to_large.md",
+              "problems": []
+            },
+            {
+              "id": "hld",
+              "title": "重链剖分",
+              "title_en": "重链剖分",
+              "content": "docs/Platinum/hld.md",
+              "problems": []
+            },
+            {
+              "id": "centroid_decomposition",
+              "title": "点分治",
+              "title_en": "点分治",
+              "content": "docs/Platinum/centroid_decomposition.md",
+              "problems": []
+            },
+            {
+              "id": "virtual_tree",
+              "title": "虚树",
+              "title_en": "虚树",
+              "content": "docs/Platinum/virtual_tree.md",
+              "problems": []
+            },
+            {
+              "id": "kruskal_reconstruction",
+              "title": "Kruskal 重构树",
+              "title_en": "Kruskal 重构树",
+              "content": "docs/Platinum/kruskal_reconstruction.md",
+              "problems": []
+            }
+          ]
+        },
+        {
+          "id": "Platinum",
+          "title": "几何",
+          "title_en": "Geometry",
+          "overview": null,
+          "lessons": [
+            {
+              "id": "geometry_primitives",
+              "title": "几何基础",
+              "title_en": "几何基础",
+              "content": "docs/Platinum/geometry_primitives.md",
+              "problems": []
+            },
+            {
+              "id": "sweep_line",
+              "title": "扫描线",
+              "title_en": "扫描线",
+              "content": "docs/Platinum/sweep_line.md",
+              "problems": []
+            },
+            {
+              "id": "convex_hull",
+              "title": "凸包",
+              "title_en": "凸包",
+              "content": "docs/Platinum/convex_hull.md",
+              "problems": []
+            },
+            {
+              "id": "convex_hull_trick",
+              "title": "斜率优化",
+              "title_en": "斜率优化",
+              "content": "docs/Platinum/convex_hull_trick.md",
+              "problems": []
+            }
+          ]
+        },
+        {
+          "id": "Platinum",
+          "title": "杂项",
+          "title_en": "Miscellaneous",
+          "overview": null,
+          "lessons": [
+            {
+              "id": "inclusion_exclusion",
+              "title": "容斥原理",
+              "title_en": "容斥原理",
+              "content": "docs/Platinum/inclusion_exclusion.md",
+              "problems": []
+            },
+            {
+              "id": "matrix_exponentiation",
+              "title": "矩阵快速幂",
+              "title_en": "矩阵快速幂",
+              "content": "docs/Platinum/matrix_exponentiation.md",
+              "problems": []
+            },
+            {
+              "id": "bitsets",
+              "title": "bitset",
+              "title_en": "bitset",
+              "content": "docs/Platinum/bitsets.md",
+              "problems": []
+            },
+            {
+              "id": "dc_dp",
+              "title": "分治优化 DP",
+              "title_en": "分治优化 DP",
+              "content": "docs/Platinum/dc_dp.md",
+              "problems": []
+            },
+            {
+              "id": "sos_dp",
+              "title": "子集和 DP",
+              "title_en": "子集和 DP",
+              "content": "docs/Platinum/sos_dp.md",
+              "problems": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

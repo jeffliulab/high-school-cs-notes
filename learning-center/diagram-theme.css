@@ -1,0 +1,75 @@
+/* ============================================================================
+ * Diagram theme for High School CS Notes — PORTABLE DROP-IN
+ * ----------------------------------------------------------------------------
+ * The lessons embed inline <svg> figures that reference CSS custom properties
+ * (var(--dia-*)). WITHOUT these variables the diagrams render with no fill /
+ * no stroke (invisible or black). Import this file (or copy these rules into
+ * your design system) on any page that renders lesson content.
+ *
+ * Light values live on :root. Dark values are under [data-theme="dark"] —
+ * RENAME that selector to whatever your site uses for dark mode
+ * (e.g. .dark, [data-color-scheme="dark"], @media (prefers-color-scheme:dark)).
+ * The palette is a warm "Tufte" cream/terracotta set; retune to taste.
+ * ==========================================================================*/
+
+:root {
+  --dia-bg:              #f5f0e8;   /* figure background (warm cream)   */
+  --dia-bg-card:         #ffffff;   /* card / cell fill                 */
+  --dia-bg-deep:         #ede8df;   /* emphasis fill / code block       */
+  --dia-stroke:          #1a1612;   /* primary ink / stroke             */
+  --dia-stroke-soft:     #6b5f4e;   /* secondary stroke / muted label   */
+  --dia-stroke-tertiary: #9c8e7a;   /* tertiary annotation              */
+  --dia-accent:          #c4673a;   /* primary accent (terracotta)      */
+  --dia-accent-deep:     #b55d32;
+  --dia-accent-soft:     rgba(196,103,58,.08);
+  --dia-green:           #4a6741;   /* secondary 1 (forest)             */
+  --dia-green-soft:      #8bc086;
+  --dia-blue:            #2c4d6e;   /* secondary 2 (deep blue)          */
+  --dia-gold:            #b8932c;   /* secondary 3 (gold)               */
+  --dia-rule:            #ede8df;   /* borders / separators             */
+}
+
+[data-theme="dark"] {              /* <-- rename to your dark-mode selector */
+  --dia-bg:              #1a1612;
+  --dia-bg-card:         #252018;
+  --dia-bg-deep:         #2e2820;
+  --dia-stroke:          #e8e0d8;
+  --dia-stroke-soft:     #a09888;
+  --dia-stroke-tertiary: #6b5f4e;
+  --dia-accent:          #da7756;
+  --dia-accent-deep:     #c4673a;
+  --dia-accent-soft:     rgba(218,119,86,.12);
+  --dia-green:           #8bc086;
+  --dia-green-soft:      #4a6741;
+  --dia-blue:            #7fa3c8;
+  --dia-gold:            #e8c060;
+  --dia-rule:            #2e2820;
+}
+
+/* Figure container that wraps each inline <svg>. */
+.diagram {
+  background: var(--dia-bg);
+  border: 1px solid var(--dia-rule);
+  border-radius: 4px;
+  padding: 32px 24px;
+  margin: 28px 0;
+  text-align: center;
+  overflow-x: auto;
+}
+
+.diagram svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Italic caption placed immediately AFTER a .diagram block. */
+.figure-caption {
+  font-family: "Fraunces", Georgia, serif;
+  font-style: italic;
+  font-size: 14px;
+  color: var(--dia-stroke-soft);
+  text-align: center;
+  margin: -16px 0 28px 0;
+}
