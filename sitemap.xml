@@ -1,0 +1,1669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/compound_casting/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/compound_casting/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/compound_casting/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/expressions_assignment/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/expressions_assignment/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/expressions_assignment/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/math_class/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/math_class/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/math_class/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/method_calls/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/method_calls/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/method_calls/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/objects_classes/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/objects_classes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/objects_classes/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/return_values/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/return_values/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/return_values/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/software_engineering/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/software_engineering/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/software_engineering/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/strings/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/strings/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/strings/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/variables_types/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/variables_types/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/variables_types/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/wrapper_classes/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/wrapper_classes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/wrapper_classes/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/boolean_expressions/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/boolean_expressions/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/boolean_expressions/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/for_loops/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/for_loops/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/for_loops/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/if_statements/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/if_statements/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/if_statements/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/informal_runtime/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/informal_runtime/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/informal_runtime/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/logical_operators/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/logical_operators/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/logical_operators/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/nested_conditionals/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/nested_conditionals/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/nested_conditionals/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/nested_loops/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/nested_loops/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/nested_loops/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/while_loops/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/while_loops/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/while_loops/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit3/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit3/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit3/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit3/accessor_mutator/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit3/accessor_mutator/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit3/accessor_mutator/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit3/class_anatomy/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit3/class_anatomy/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit3/class_anatomy/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit3/constructors/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit3/constructors/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit3/constructors/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit3/encapsulation_javadoc/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit3/encapsulation_javadoc/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit3/encapsulation_javadoc/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit3/scope_access/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit3/scope_access/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit3/scope_access/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit3/static_members/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit3/static_members/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit3/static_members/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit3/this_parameters/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit3/this_parameters/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit3/this_parameters/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/array_2d/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/array_2d/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/array_2d/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/array_2d_traversal/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/array_2d_traversal/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/array_2d_traversal/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/array_algorithms/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/array_algorithms/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/array_algorithms/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/array_traversal/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/array_traversal/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/array_traversal/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/arraylist/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/arraylist/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/arraylist/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/arraylist_algorithms/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/arraylist_algorithms/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/arraylist_algorithms/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/arrays/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/arrays/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/arrays/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/recursion/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/recursion/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/recursion/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/searching/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/searching/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/searching/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/sorting/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/sorting/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/sorting/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/text_files_scanner/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/text_files_scanner/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/text_files_scanner/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Bronze/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Bronze/ad_hoc/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/ad_hoc/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/ad_hoc/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Bronze/casework/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/casework/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/casework/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Bronze/complete_search_basic/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/complete_search_basic/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/complete_search_basic/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Bronze/complete_search_recursion/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/complete_search_recursion/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/complete_search_recursion/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Bronze/intro_data_structures/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/intro_data_structures/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/intro_data_structures/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Bronze/intro_graphs/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/intro_graphs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/intro_graphs/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Bronze/intro_greedy/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/intro_greedy/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/intro_greedy/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Bronze/intro_sorting/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/intro_sorting/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/intro_sorting/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Bronze/rectangle_geometry/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/rectangle_geometry/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/rectangle_geometry/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Bronze/sets_maps/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/sets_maps/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/sets_maps/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Bronze/simulation/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/simulation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/simulation/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Bronze/time_complexity/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/time_complexity/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/time_complexity/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Bronze/usaco_intro/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/usaco_intro/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/usaco_intro/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Gold/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Gold/all_roots_dp/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/all_roots_dp/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/all_roots_dp/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Gold/bitmask_dp/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/bitmask_dp/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/bitmask_dp/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Gold/combinatorics/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/combinatorics/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/combinatorics/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Gold/digit_dp/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/digit_dp/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/digit_dp/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Gold/dijkstra/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/dijkstra/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/dijkstra/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Gold/divisibility/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/divisibility/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/divisibility/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Gold/dp_on_trees/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/dp_on_trees/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/dp_on_trees/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Gold/dsu/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/dsu/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/dsu/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Gold/euler_tour/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/euler_tour/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/euler_tour/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Gold/grid_paths/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/grid_paths/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/grid_paths/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Gold/hashing/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/hashing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/hashing/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Gold/intro_dp/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/intro_dp/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/intro_dp/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Gold/knapsack/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/knapsack/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/knapsack/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Gold/lis/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/lis/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/lis/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Gold/meet_in_middle/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/meet_in_middle/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/meet_in_middle/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Gold/modular_arithmetic/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/modular_arithmetic/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/modular_arithmetic/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Gold/mst/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/mst/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/mst/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Gold/point_update_range_sum/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/point_update_range_sum/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/point_update_range_sum/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Gold/range_dp/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/range_dp/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/range_dp/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Gold/sliding_window/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/sliding_window/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/sliding_window/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Gold/sorted_sets/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/sorted_sets/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/sorted_sets/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Gold/stacks/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/stacks/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/stacks/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Gold/ternary_search/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/ternary_search/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/ternary_search/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Gold/topological_sort/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/topological_sort/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/topological_sort/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Gold/unweighted_shortest_path/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/unweighted_shortest_path/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/unweighted_shortest_path/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Platinum/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Platinum/binary_jumping/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/binary_jumping/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/binary_jumping/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Platinum/bitsets/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/bitsets/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/bitsets/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Platinum/centroid_decomposition/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/centroid_decomposition/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/centroid_decomposition/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Platinum/convex_hull/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/convex_hull/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/convex_hull/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Platinum/convex_hull_trick/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/convex_hull_trick/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/convex_hull_trick/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Platinum/dc_dp/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/dc_dp/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/dc_dp/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Platinum/dc_static_range/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/dc_static_range/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/dc_static_range/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Platinum/geometry_primitives/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/geometry_primitives/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/geometry_primitives/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Platinum/hld/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/hld/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/hld/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Platinum/inclusion_exclusion/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/inclusion_exclusion/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/inclusion_exclusion/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Platinum/kruskal_reconstruction/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/kruskal_reconstruction/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/kruskal_reconstruction/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Platinum/matrix_exponentiation/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/matrix_exponentiation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/matrix_exponentiation/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Platinum/range_queries_2d/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/range_queries_2d/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/range_queries_2d/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Platinum/range_update_range_query/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/range_update_range_query/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/range_update_range_query/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Platinum/segtree_applications/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/segtree_applications/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/segtree_applications/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Platinum/small_to_large/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/small_to_large/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/small_to_large/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Platinum/sos_dp/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/sos_dp/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/sos_dp/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Platinum/sparse_segtree/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/sparse_segtree/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/sparse_segtree/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Platinum/sqrt_decomposition/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/sqrt_decomposition/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/sqrt_decomposition/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Platinum/sweep_line/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/sweep_line/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/sweep_line/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Platinum/sweep_line_range/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/sweep_line_range/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/sweep_line_range/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Platinum/virtual_tree/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/virtual_tree/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/virtual_tree/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Silver/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Silver/binary_search/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/binary_search/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/binary_search/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Silver/binary_search_sorted/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/binary_search_sorted/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/binary_search_sorted/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Silver/bitwise/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/bitwise/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/bitwise/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Silver/custom_comparators/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/custom_comparators/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/custom_comparators/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Silver/flood_fill/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/flood_fill/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/flood_fill/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Silver/functional_graphs/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/functional_graphs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/functional_graphs/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Silver/graph_traversal/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/graph_traversal/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/graph_traversal/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Silver/greedy_sorting/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/greedy_sorting/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/greedy_sorting/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Silver/intro_trees/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/intro_trees/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/intro_trees/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Silver/prefix_sums/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/prefix_sums/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/prefix_sums/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Silver/prefix_sums_advanced/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/prefix_sums_advanced/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/prefix_sums_advanced/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Silver/priority_queues/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/priority_queues/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/priority_queues/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/Silver/two_pointers/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/two_pointers/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/two_pointers/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/compound_casting/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/compound_casting/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/compound_casting/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/expressions_assignment/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/expressions_assignment/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/expressions_assignment/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/math_class/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/math_class/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/math_class/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/method_calls/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/method_calls/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/method_calls/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/objects_classes/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/objects_classes/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/objects_classes/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/return_values/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/return_values/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/return_values/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/software_engineering/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/software_engineering/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/software_engineering/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/strings/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/strings/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/strings/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/variables_types/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/variables_types/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/variables_types/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/wrapper_classes/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit1/wrapper_classes/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit1/wrapper_classes/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/boolean_expressions/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/boolean_expressions/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/boolean_expressions/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/for_loops/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/for_loops/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/for_loops/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/if_statements/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/if_statements/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/if_statements/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/informal_runtime/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/informal_runtime/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/informal_runtime/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/logical_operators/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/logical_operators/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/logical_operators/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/nested_conditionals/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/nested_conditionals/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/nested_conditionals/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/nested_loops/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/nested_loops/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/nested_loops/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/while_loops/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit2/while_loops/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit2/while_loops/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit3/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit3/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit3/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit3/accessor_mutator/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit3/accessor_mutator/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit3/accessor_mutator/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit3/class_anatomy/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit3/class_anatomy/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit3/class_anatomy/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit3/constructors/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit3/constructors/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit3/constructors/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit3/encapsulation_javadoc/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit3/encapsulation_javadoc/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit3/encapsulation_javadoc/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit3/scope_access/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit3/scope_access/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit3/scope_access/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit3/static_members/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit3/static_members/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit3/static_members/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit3/this_parameters/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit3/this_parameters/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit3/this_parameters/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/array_2d/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/array_2d/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/array_2d/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/array_2d_traversal/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/array_2d_traversal/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/array_2d_traversal/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/array_algorithms/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/array_algorithms/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/array_algorithms/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/array_traversal/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/array_traversal/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/array_traversal/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/arraylist/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/arraylist/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/arraylist/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/arraylist_algorithms/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/arraylist_algorithms/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/arraylist_algorithms/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/arrays/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/arrays/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/arrays/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/recursion/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/recursion/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/recursion/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/searching/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/searching/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/searching/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/sorting/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/sorting/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/sorting/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/text_files_scanner/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/AP_CSA/unit4/text_files_scanner/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/AP_CSA/unit4/text_files_scanner/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/ad_hoc/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/ad_hoc/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/ad_hoc/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/casework/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/casework/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/casework/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/complete_search_basic/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/complete_search_basic/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/complete_search_basic/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/complete_search_recursion/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/complete_search_recursion/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/complete_search_recursion/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/intro_data_structures/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/intro_data_structures/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/intro_data_structures/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/intro_graphs/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/intro_graphs/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/intro_graphs/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/intro_greedy/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/intro_greedy/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/intro_greedy/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/intro_sorting/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/intro_sorting/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/intro_sorting/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/rectangle_geometry/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/rectangle_geometry/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/rectangle_geometry/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/sets_maps/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/sets_maps/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/sets_maps/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/simulation/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/simulation/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/simulation/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/time_complexity/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/time_complexity/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/time_complexity/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/usaco_intro/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Bronze/usaco_intro/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Bronze/usaco_intro/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Gold/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Gold/all_roots_dp/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/all_roots_dp/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/all_roots_dp/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Gold/bitmask_dp/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/bitmask_dp/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/bitmask_dp/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Gold/combinatorics/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/combinatorics/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/combinatorics/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Gold/digit_dp/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/digit_dp/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/digit_dp/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Gold/dijkstra/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/dijkstra/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/dijkstra/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Gold/divisibility/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/divisibility/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/divisibility/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Gold/dp_on_trees/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/dp_on_trees/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/dp_on_trees/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Gold/dsu/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/dsu/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/dsu/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Gold/euler_tour/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/euler_tour/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/euler_tour/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Gold/grid_paths/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/grid_paths/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/grid_paths/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Gold/hashing/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/hashing/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/hashing/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Gold/intro_dp/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/intro_dp/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/intro_dp/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Gold/knapsack/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/knapsack/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/knapsack/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Gold/lis/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/lis/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/lis/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Gold/meet_in_middle/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/meet_in_middle/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/meet_in_middle/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Gold/modular_arithmetic/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/modular_arithmetic/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/modular_arithmetic/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Gold/mst/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/mst/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/mst/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Gold/point_update_range_sum/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/point_update_range_sum/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/point_update_range_sum/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Gold/range_dp/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/range_dp/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/range_dp/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Gold/sliding_window/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/sliding_window/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/sliding_window/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Gold/sorted_sets/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/sorted_sets/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/sorted_sets/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Gold/stacks/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/stacks/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/stacks/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Gold/ternary_search/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/ternary_search/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/ternary_search/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Gold/topological_sort/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/topological_sort/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/topological_sort/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Gold/unweighted_shortest_path/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Gold/unweighted_shortest_path/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Gold/unweighted_shortest_path/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/binary_jumping/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/binary_jumping/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/binary_jumping/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/bitsets/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/bitsets/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/bitsets/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/centroid_decomposition/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/centroid_decomposition/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/centroid_decomposition/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/convex_hull/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/convex_hull/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/convex_hull/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/convex_hull_trick/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/convex_hull_trick/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/convex_hull_trick/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/dc_dp/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/dc_dp/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/dc_dp/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/dc_static_range/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/dc_static_range/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/dc_static_range/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/geometry_primitives/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/geometry_primitives/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/geometry_primitives/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/hld/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/hld/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/hld/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/inclusion_exclusion/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/inclusion_exclusion/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/inclusion_exclusion/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/kruskal_reconstruction/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/kruskal_reconstruction/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/kruskal_reconstruction/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/matrix_exponentiation/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/matrix_exponentiation/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/matrix_exponentiation/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/range_queries_2d/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/range_queries_2d/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/range_queries_2d/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/range_update_range_query/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/range_update_range_query/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/range_update_range_query/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/segtree_applications/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/segtree_applications/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/segtree_applications/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/small_to_large/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/small_to_large/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/small_to_large/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/sos_dp/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/sos_dp/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/sos_dp/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/sparse_segtree/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/sparse_segtree/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/sparse_segtree/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/sqrt_decomposition/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/sqrt_decomposition/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/sqrt_decomposition/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/sweep_line/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/sweep_line/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/sweep_line/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/sweep_line_range/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/sweep_line_range/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/sweep_line_range/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/virtual_tree/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Platinum/virtual_tree/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Platinum/virtual_tree/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Silver/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Silver/binary_search/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/binary_search/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/binary_search/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Silver/binary_search_sorted/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/binary_search_sorted/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/binary_search_sorted/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Silver/bitwise/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/bitwise/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/bitwise/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Silver/custom_comparators/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/custom_comparators/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/custom_comparators/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Silver/flood_fill/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/flood_fill/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/flood_fill/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Silver/functional_graphs/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/functional_graphs/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/functional_graphs/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Silver/graph_traversal/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/graph_traversal/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/graph_traversal/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Silver/greedy_sorting/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/greedy_sorting/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/greedy_sorting/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Silver/intro_trees/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/intro_trees/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/intro_trees/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Silver/prefix_sums/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/prefix_sums/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/prefix_sums/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Silver/prefix_sums_advanced/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/prefix_sums_advanced/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/prefix_sums_advanced/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Silver/priority_queues/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/priority_queues/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/priority_queues/"/>
+    </url>
+    <url>
+        <loc>https://jeffliulab.github.io/high-school-cs-notes/en/Silver/two_pointers/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeffliulab.github.io/high-school-cs-notes/en/Silver/two_pointers/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jeffliulab.github.io/high-school-cs-notes/Silver/two_pointers/"/>
+    </url>
+</urlset>
